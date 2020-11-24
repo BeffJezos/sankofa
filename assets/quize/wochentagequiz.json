@@ -1,0 +1,128 @@
+[
+  {
+    "1": "Wie lautet der Akan-Tag für Montag?",
+    "2": "Wie lautet der Akan-Tag für Dienstag?",
+    "3": "Wie lautet der Akan-Tag für Mittwoch?",
+    "4": "Wie lautet der Akan-Tag für Donnerstag?",
+    "5": "Wie lautet der Akan-Tag für Freitag?",
+    "6": "Wie lautet der Akan-Tag für Samstag?",
+    "7": "Wie lautet der Akan-Tag für Soinntag?",
+    "8": "Wie lautet der Akan-Tag für Montag?",
+    "9": "Wie lautet der Akan-Tag für Dienstag?",
+    "10": "Wie lautet der Akan-Tag für Mittwoch?",
+    "11": "Wie lautet der Akan-Tag für Donnerstag?",
+    "12": "Wie lautet der Akan-Tag für Freitag?",
+    "13": "Wie lautet der Akan-Tag für Samstag?",
+    "14": "Wie lautet der Akan-Tag für Soinntag?",
+    "15": "Wie lautet der Akan-Tag für Samstag?",
+    "16": "Wie lautet der Akan-Tag für Soinntag?",
+    "17": "Wie lautet der Akan-Tag für Montag?",
+    "18": "Wie lautet der Akan-Tag für Dienstag?",
+    "19": "Wie lautet der Akan-Tag für Mittwoch?",
+    "20": "Wie lautet der Akan-Tag für Donnerstag?"
+  },
+  {
+    "1": {
+      "a": "Memeneda",
+      "b": "Edwoda/Dwoadaa"
+    },
+    "2": {
+      "a": "Efiada/Fiada",
+      "b": "Ebenada/Benada"
+    },
+    "3": {
+      "a": "Wukuada",
+      "b": "Kwasiada"
+    },
+    "4": {
+      "a": "Ebenada/Benad",
+      "b": "Yawoada"
+    },
+    "5": {
+      "a": "Efiada/Fiada",
+      "b": "Memeneda"
+    },
+    "6": {
+      "a": "Memeneda",
+      "b": "Edwoda/Dwoadaa"
+    },
+    "7": {
+      "a": "Kwasiada",
+      "b": "Edwoda/Dwoadaa"
+    },
+    "8": {
+      "a": "Edwoda/Dwoadaa",
+      "b": "Memeneda"
+    },
+    "9": {
+      "a": "Ebenada/Benada",
+      "b": "Efiada/Fiada"
+    },
+    "10": {
+      "a": "Kwasiada",
+      "b": "Wukuada"
+    },
+    "11": {
+      "a": "Yawoada",
+      "b": "Ebenada/Benad"
+    },
+    "12": {
+      "a": "Memeneda",
+      "b": "Efiada/Fiada"
+    },
+    "13": {
+      "a": "Edwoda/Dwoadaa",
+      "b": "Memeneda"
+    },
+    "14": {
+      "a": "Edwoda/Dwoadaa",
+      "b": "Kwasiada"
+    },
+    "15": {
+      "a": "Edwoda/Dwoadaa",
+      "b": "Memeneda"
+    },
+    "16": {
+      "a": "Edwoda/Dwoadaa",
+      "b": "Kwasiada"
+    },
+    "17": {
+      "a": "Memeneda",
+      "b": "Edwoda/Dwoadaa"
+    },
+    "18": {
+      "a": "Efiada/Fiada",
+      "b": "Ebenada/Benada"
+    },
+    "19": {
+      "a": "Wukuada",
+      "b": "Kwasiada"
+    },
+    "20": {
+      "a": "Ebenada/Benad",
+      "b": "Yawoada"
+    }
+  },
+  {
+    "1": "Edwoda/Dwoada",
+    "2": "Ebenada/Benada",
+    "3": "Wukuada",
+    "4": "Yawoada",
+    "5": "Efiada/Fiada",
+    "6": "Memeneda",
+    "7": "Kwasiada",
+    "8": "Edwoda/Dwoada",
+    "9": "Ebenada/Benada",
+    "10": "Wukuada",
+    "11": "Yawoada",
+    "12": "Efiada/Fiada",
+    "13": "Memeneda",
+    "14": "Kwasiada",
+    "15": "Memeneda",
+    "16": "Kwasiada",
+    "17": "Edwoda/Dwoada",
+    "18": "Ebenada/Benada",
+    "19": "Wukuada",
+    "20": "Yawoada"
+  }
+]

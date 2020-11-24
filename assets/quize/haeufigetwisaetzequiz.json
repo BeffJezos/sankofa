@@ -1,0 +1,128 @@
+[
+  {
+    "1": "Yɛferɛ wo sɛn?",
+    "2": "Yɛferɛ me …",
+    "3": "Me din de …",
+    "4": "Wo ﬁre he?",
+    "5": "Me ﬁri ...",
+    "6": "Wadi mfeɛ sɛn ?",
+    "7": "Madi..",
+    "8": "Wo ho te sen? (formell)",
+    "9": "εte sεn? (informell)",
+    "10": "εyε.",
+    "11": "Me ho yε.",
+    "12": "Me ma wo akye.",
+    "13": " Me ma wo aha.",
+    "14": "Me ma wo adwo.",
+    "15": "Yaa nua.",
+    "16": "Yaa εna.",
+    "17": "Yaa agya.",
+    "18": "Yaa asɔn.",
+    "19": "Nante yiye.",
+    "20": "Yɛbɛhyia bio."
+  },
+  {
+    "1": {
+      "a": "Wie heißt du?",
+      "b": "Was machst du?"
+    },
+    "2": {
+      "a": "Man nennt mich...",
+      "b": "Man kennt dich..."
+    },
+    "3": {
+      "a": "Mein Name ist...",
+      "b": "Mein Größe ist..."
+    },
+    "4": {
+      "a": "Wie alt bist du?",
+      "b": "Woher kommst du?"
+    },
+    "5": {
+      "a": "Ich komme aus...",
+      "b": "Ich bin von hier."
+    },
+    "6": {
+      "a": "Wie alt bist du?",
+      "b": "Wie groß bist du?"
+    },
+    "7": {
+      "a": "Ich bin... Jahre alt.",
+      "b": "Ich bin... groß."
+    },
+    "8": {
+      "a": "Wie gehts es dir? (formell)",
+      "b": "Guten Abend! (formell)"
+    },
+    "9": {
+      "a": "Wie geht es dir? (informell)",
+      "b": "Guten Appetit! (informell)"
+    },
+    "10": {
+      "a": "Gut (formelle Antwort auf wie geht es dir?)",
+      "b": "Von hier (informelle Antwort auf wie geht es dir?)"
+    },
+    "11": {
+      "a": "Mir gehts es gut. (formell)",
+      "b": "Ich bedanke mich. (formell)"
+    },
+    "12": {
+      "a": "Guten Morgen.",
+      "b": "Guten Abend."
+    },
+    "13": {
+      "a": "Guten Mittag.",
+      "b": "Guten Nachmittag."
+    },
+    "14": {
+      "a": "Guten Abend.",
+      "b": "Gute Nacht."
+    },
+    "15": {
+      "a": "Antwort auf einen Gruß bei Person im gleichen Alter.",
+      "b": "Antwort auf einen Gruß bei älterer Person."
+    },
+    "16": {
+      "a": "Antwort auf einen Gruß bei einem älteren Herren.",
+      "b": "Antwort auf einen Gruß bei einer älteren Dame."
+    },
+    "17": {
+      "a": "Antwort auf einen Gruß bei einem älteren Herren.",
+      "b": "Antwort auf einen Gruß bei einer älteren Dame."
+    },
+    "18": {
+      "a": "Antwort auf einen Gruß bei einer jüngeren Person.",
+      "b": "Antwort auf einen Gruß bei einem Familien-Mitglied."
+    },
+    "19": {
+      "a": "Gute Heimfahrt.",
+      "b": "Gute Reise."
+    },
+    "20": {
+      "a": "Wir werden uns wiedersehen.",
+      "b": "Bis Morgen."
+    }
+  },
+  {
+    "1": "Wie heißt du?",
+    "2": "Man nennt mich...",
+    "3": "Mein Name ist...",
+    "4": "Woher kommst du?",
+    "5": "Ich komme aus....",
+    "6": "Wie alt bist du?",
+    "7": "Ich bin... Jahre alt.",
+    "8": "Wie geht es dir? (formell)",
+    "9": "Wie geht es dir? (informell)",
+    "10": "Gut (formelle Antwort auf wie geht es dir?)",
+    "11": "Mir gehts es gut. (formell)",
+    "12": "Guten Morgen.",
+    "13": "Guten Nachmittag.",
+    "14": "Guten Abends.",
+    "15": "Antwort auf einen Gruß bei Person im gleichen Alter.",
+    "16": "Antwort auf einen Gruß bei einer älteren Dame.",
+    "17": "Antwort auf einen Gruß bei einem älteren Herren.",
+    "18": "Antwort auf einen Gruß bei einer jüngeren Person.",
+    "19": "Gute Reise.",
+    "20": "Wir werden uns wiedersehen."
+  }
+]

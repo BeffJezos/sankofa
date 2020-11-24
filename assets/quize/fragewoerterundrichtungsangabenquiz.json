@@ -1,0 +1,128 @@
+[
+  {
+    "1": "hwan?",
+    "2": "ɛhe?",
+    "3": "ɛdeɛn?",
+    "4": "ɛhe?",
+    "5": "dabeɛn?",
+    "6": "ɛhe?",
+    "7": "sɛn?",
+    "8": "adɛn?",
+    "9": "deɛ...ɛhe?",
+    "10": "nifa",
+    "11": "bɛnkum",
+    "12": "tee",
+    "13": "san bra",
+    "14": "ɛha",
+    "15": "ɛhɔ",
+    "16": "Madi..",
+    "17": "ɛbɛn",
+    "18": "ɛware",
+    "19": "nkwanta",
+    "20": "ɛhɔ"
+  },
+  {
+    "1": {
+      "a": "Weshalb?",
+      "b": "Wer?"
+    },
+    "2": {
+      "a": "Wo?",
+      "b": "Wie?"
+    },
+    "3": {
+      "a": "Wann?",
+      "b": "Was?"
+    },
+    "4": {
+      "a": "Woher?",
+      "b": "Wirklich?"
+    },
+    "5": {
+      "a": "Wann?",
+      "b": "Wo?"
+    },
+    "6": {
+      "a": "Wohin?",
+      "b": "Wieso?"
+    },
+    "7": {
+      "a": "Wie?",
+      "b": "Warum?"
+    },
+    "8": {
+      "a": "Warum?",
+      "b": "Welches?"
+    },
+    "9": {
+      "a": "Weshalb?",
+      "b": "Welcher?"
+    },
+    "10": {
+      "a": "Oben",
+      "b": "Rechts"
+    },
+    "11": {
+      "a": "Links",
+      "b": "Unten"
+    },
+    "12": {
+      "a": "Unter (dir)",
+      "b": "Links"
+    },
+    "13": {
+      "a": "Geradeaus",
+      "b": "Hinten"
+    },
+    "14": {
+      "a": "Zurück",
+      "b": "Vorne"
+    },
+    "15": {
+      "a": "Hier",
+      "b": "Dort"
+    },
+    "16": {
+      "a": "Dort",
+      "b": "Dahinter"
+    },
+    "17": {
+      "a": "In der Nähe von...",
+      "b": "In deiner Sichweite."
+    },
+    "18": {
+      "a": "In der Nähe.",
+      "b": "Weit entfernt."
+    },
+    "19": {
+      "a": "Übergang",
+      "b": "Kreuzung"
+    },
+    "20": {
+      "a": "Dort",
+      "b": "Hier"
+    }
+  },
+  {
+    "1": "Wer?",
+    "2": "Wo?",
+    "3": "Was?",
+    "4": "Woher?",
+    "5": "Wann?",
+    "6": "Wohin?",
+    "7": "Wie?",
+    "8": "Warum?",
+    "9": "Welcher?",
+    "10": "Rechts",
+    "11": "Links",
+    "12": "Links",
+    "13": "Geradeaus",
+    "14": "Zurück",
+    "15": "Hier",
+    "16": "Dort",
+    "17": "In der Nähe von...",
+    "18": "Weit entfernt.",
+    "19": "Kreuzung",
+    "20": "Hier"
+  }
+]
