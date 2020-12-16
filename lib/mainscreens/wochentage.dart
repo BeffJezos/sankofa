@@ -21,7 +21,7 @@ class _WochentageState extends State<Wochentage> {
               children: [
                 Padding(
                   padding: const EdgeInsets.fromLTRB(0.0, 32.0, 134.0, 16.0),
-                  child: Text('Wochentage und Namen', style: kTitleStyle),
+                  child: Text('Wochentage', style: kTitleStyle),
                 ),
                 Container(
                   decoration: BoxDecoration(
@@ -45,11 +45,6 @@ class _WochentageState extends State<Wochentage> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
-                                functionality: 'Wochentag'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
@@ -112,11 +107,6 @@ class _WochentageState extends State<Wochentage> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
-                                functionality: 'Akan-Tag'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),

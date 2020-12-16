@@ -15,7 +15,7 @@
     "13": "san bra",
     "14": "ɛha",
     "15": "ɛhɔ",
-    "16": "Madi..",
+    "16": "tee",
     "17": "ɛbɛn",
     "18": "ɛware",
     "19": "nkwanta",
@@ -83,8 +83,8 @@
       "b": "Dort"
     },
     "16": {
-      "a": "Dort",
-      "b": "Dahinter"
+      "a": "Unter (dir)",
+      "b": "Links"
     },
     "17": {
       "a": "In der Nähe von...",
@@ -119,7 +119,7 @@
     "13": "Geradeaus",
     "14": "Zurück",
     "15": "Hier",
-    "16": "Dort",
+    "16": "Links",
     "17": "In der Nähe von...",
     "18": "Weit entfernt.",
     "19": "Kreuzung",

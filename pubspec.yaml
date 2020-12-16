@@ -77,6 +77,13 @@ flutter:
     - assets/images/okay.jpeg
     - assets/images/good.jpeg
     - assets/images/success.jpeg
+    - assets/images/SankofaNeuesBild1.jfif
+    - assets/images/SankofaNeuesBild2.jfif
+    - assets/images/SankofaNeuesBild3.jfif
+    - assets/images/SankofaNeuesBild4.jfif
+    - assets/images/SankofaNeuesBild5.jfif
+    - assets/images/SankofaNeuesBild6.jfif
+    - assets/images/SankofaNeuesBild7.jfif
     - assets/quize/farbenquiz.json
     - assets/quize/fragewoerterundrichtungsangabenquiz.json
     - assets/quize/haeufigetwisaetzequiz.json

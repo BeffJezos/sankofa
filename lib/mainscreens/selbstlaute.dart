@@ -93,7 +93,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithTexteins(
                               functionality: 'akoma',
-                              input: 'Herz (Organ)',
+                              input: 'Herz',
                             ),
                           ),
                           Padding(
@@ -211,7 +211,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
-                                functionality: 'Menschenmenge'),
+                                functionality: 'Menschenmenge/Gruppe'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),

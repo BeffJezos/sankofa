@@ -75,7 +75,7 @@ class _FragewoerterundRichtungsangabenState
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTexteins(
-                              functionality: 'dabeɛn?',
+                              functionality: 'dab3n?',
                               input: 'dabeen_',
                             ),
                           ),
@@ -103,7 +103,7 @@ class _FragewoerterundRichtungsangabenState
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTexteins(
-                              functionality: 'deɛ...ɛhe?',
+                              functionality: 'deɛhe?',
                               input: 'deehe_',
                             ),
                           ),
@@ -235,13 +235,6 @@ class _FragewoerterundRichtungsangabenState
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTexteins(
-                              functionality: 'Madi..',
-                              input: 'Madi..',
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithTexteins(
                               functionality: 'ɛbɛn',
                               input: 'eben',
                             ),
@@ -275,7 +268,7 @@ class _FragewoerterundRichtungsangabenState
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesTwoRectangleWithText(
+                            child: SentencesRectangleWithText(
                                 functionality: 'Links'),
                           ),
                           Padding(

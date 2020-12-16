@@ -11,21 +11,20 @@ class QuizHome extends StatefulWidget {
 
 class _QuizHomeState extends State<QuizHome> {
   List<String> images = [
-    "assets/images/KomplettesQuizBild.jpeg",
     "assets/images/FarbenBild.jpeg",
     "assets/images/ZahlenBild.jpeg",
     "assets/images/LebensmittelBild.jpeg",
-    "assets/images/WochenTageBild.jpeg",
+    "assets/images/SankofaNeuesBild7.jfif",
     "assets/images/KonsonantenBild.jpeg",
     "assets/images/SelbstlauteBild.jpeg",
-    "assets/images/HaeufigeTwiSaetzeBild.jpeg",
+    "assets/images/SankofaNeuesBild1.jfif",
     "assets/images/FragewoerterBild.jpeg",
     "assets/images/ZeitangabenBild.jpeg",
-    "assets/images/TiereBild.jpeg"
+    "assets/images/TiereBild.jpeg",
+    "assets/images/SankofaNeuesBild3.jfif",
   ];
 
   List<String> des = [
-    "Ein Quiz über alle in der App behandelten Themen der Sprache Twi. Gye ani! ",
     "Ein Quiz über die Farben der Sprache Twi.",
     "Ein Quiz über die Zahlen der Sprache Twi.",
     "Ein Quiz über die Lebensmittel der Sprache Twi.",
@@ -36,6 +35,7 @@ class _QuizHomeState extends State<QuizHome> {
     "Ein Quiz über die Fragenwörter udn Richtungsangaben der Sprache Twi.",
     "Ein Quiz über die Zeitangaben der Sprache Twi.",
     "Ein Quiz über die Tiere der Sprache Twi.",
+    "Ein Quiz über alle in der App behandelten Themen der Sprache Twi. Gye ani! ",
   ];
 
   Widget customcard(String langname, String image, String des) {
@@ -128,17 +128,17 @@ class _QuizHomeState extends State<QuizHome> {
       ),
       body: ListView(
         children: <Widget>[
-          customcard("Komplettes Quiz", images[0], des[0]),
-          customcard("Farben", images[1], des[1]),
-          customcard("Zahlen", images[2], des[2]),
-          customcard("Lebensmittel", images[3], des[3]),
-          customcard("Wochentage und Namen", images[4], des[4]),
-          customcard("Konsonanten", images[5], des[5]),
-          customcard("Selbstlaute", images[6], des[6]),
-          customcard("Häufige Twi Sätze", images[7], des[7]),
-          customcard("Fragewörter und Richtungsangaben", images[8], des[8]),
-          customcard("Zeitangaben", images[9], des[9]),
-          customcard("Tiere", images[10], des[10]),
+          customcard("Farben", images[0], des[0]),
+          customcard("Zahlen", images[1], des[1]),
+          customcard("Lebensmittel", images[2], des[2]),
+          customcard("Wochentage und Namen", images[3], des[3]),
+          customcard("Konsonanten", images[4], des[4]),
+          customcard("Selbstlaute", images[5], des[5]),
+          customcard("Häufige Twi Sätze", images[6], des[6]),
+          customcard("Fragewörter und Richtungsangaben", images[7], des[7]),
+          customcard("Zeitangaben", images[8], des[8]),
+          customcard("Tiere", images[9], des[9]),
+          customcard("Komplettes Quiz", images[10], des[10]),
         ],
       ),
     );

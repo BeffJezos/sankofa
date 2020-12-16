@@ -2,7 +2,7 @@
   {
     "1": "Yɛferɛ wo sɛn?",
     "2": "Yɛferɛ me …",
-    "3": "Me din de …",
+    "3": "Yaa nua.",
     "4": "Wo ﬁre he?",
     "5": "Me ﬁri ...",
     "6": "Wadi mfeɛ sɛn ?",
@@ -12,7 +12,7 @@
     "10": "εyε.",
     "11": "Me ho yε.",
     "12": "Me ma wo akye.",
-    "13": " Me ma wo aha.",
+    "13": "Me ma wo aha.",
     "14": "Me ma wo adwo.",
     "15": "Yaa nua.",
     "16": "Yaa εna.",
@@ -31,8 +31,8 @@
       "b": "Man kennt dich..."
     },
     "3": {
-      "a": "Mein Name ist...",
-      "b": "Mein Größe ist..."
+      "a": "Antwort auf einen Gruß bei Person im gleichen Alter.",
+      "b": "Antwort auf einen Gruß bei älterer Person."
     },
     "4": {
       "a": "Wie alt bist du?",
@@ -106,7 +106,7 @@
   {
     "1": "Wie heißt du?",
     "2": "Man nennt mich...",
-    "3": "Mein Name ist...",
+    "3": "Antwort auf einen Gruß bei Person im gleichen Alter.",
     "4": "Woher kommst du?",
     "5": "Ich komme aus....",
     "6": "Wie alt bist du?",

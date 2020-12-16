@@ -125,7 +125,7 @@ class _KonsonantenState extends State<Konsonanten> {
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
-                              functionality: 'bebre',
+                              functionality: 'Bebree',
                               input: 'bebre',
                             ),
                           ),

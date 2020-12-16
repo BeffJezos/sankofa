@@ -85,45 +85,9 @@ class _HomescreenState extends State<HomeScreen> {
                     Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
-                        functionality: 'Farben',
-                        onPressed: () {
-                          Navigator.pushNamed(context, Farben.id);
-                        },
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: HomeScreenOptions(
                         functionality: 'Zahlen',
                         onPressed: () {
                           Navigator.pushNamed(context, Zahlen.id);
-                        },
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: HomeScreenOptions(
-                        functionality: 'Lebensmittel',
-                        onPressed: () {
-                          Navigator.pushNamed(context, Lebensmittel.id);
-                        },
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: HomeScreenOptions(
-                        functionality: 'Wochentage & Namen',
-                        onPressed: () {
-                          Navigator.pushNamed(context, Wochentage.id);
-                        },
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: HomeScreenOptions(
-                        functionality: 'Konsonanten',
-                        onPressed: () {
-                          Navigator.pushNamed(context, Konsonanten.id);
                         },
                       ),
                     ),
@@ -139,6 +103,15 @@ class _HomescreenState extends State<HomeScreen> {
                     Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
+                        functionality: 'Konsonanten',
+                        onPressed: () {
+                          Navigator.pushNamed(context, Konsonanten.id);
+                        },
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: HomeScreenOptions(
                         functionality: 'Häufige Twi Sätze',
                         onPressed: () {
                           Navigator.pushNamed(context, Haeufigesaetze.id);
@@ -148,7 +121,7 @@ class _HomescreenState extends State<HomeScreen> {
                     Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
-                        functionality: 'Fragewörter/Richtungsangaben',
+                        functionality: 'Fragewörter',
                         onPressed: () {
                           Navigator.pushNamed(
                               context, FragewoerterundRichtungsangaben.id);
@@ -161,6 +134,33 @@ class _HomescreenState extends State<HomeScreen> {
                         functionality: 'Zeitangaben',
                         onPressed: () {
                           Navigator.pushNamed(context, Zeitangaben.id);
+                        },
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: HomeScreenOptions(
+                        functionality: 'Wochentage',
+                        onPressed: () {
+                          Navigator.pushNamed(context, Wochentage.id);
+                        },
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: HomeScreenOptions(
+                        functionality: 'Lebensmittel',
+                        onPressed: () {
+                          Navigator.pushNamed(context, Lebensmittel.id);
+                        },
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: HomeScreenOptions(
+                        functionality: 'Farben',
+                        onPressed: () {
+                          Navigator.pushNamed(context, Farben.id);
                         },
                       ),
                     ),

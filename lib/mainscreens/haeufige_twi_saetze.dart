@@ -47,13 +47,6 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTextzwei(
-                              functionality: 'Me din de … (Mein Name ist…)',
-                              input: 'Me din de',
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithTextzwei(
                               functionality: 'Wo ﬁre he?',
                               input: 'Wo fire he',
                             ),
@@ -68,14 +61,14 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTextzwei(
-                              functionality: 'Wadi mfeɛ sɛn ?',
+                              functionality: 'W’adi mfeɛ sɛn ?',
                               input: 'Wadi mfee sen',
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTextzwei(
-                              functionality: 'Madi..',
+                              functionality: 'M’adi ',
                               input: 'Madi',
                             ),
                           )
@@ -96,7 +89,7 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesTwoRectangleWithText(
+                            child: SentencesRectangleWithTextzwei(
                                 functionality: 'Ich heiße...'),
                           ),
                           Padding(
@@ -157,14 +150,6 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                             child: SentencesRectangleWithTextzwei(
                               functionality: 'εte sεn? (informell)',
                               input: 'eto sen',
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: SentencesTwoRectangleWithText(
-                              functionality:
-                                  'Mpɔ mu te sεn? (optional Bedeutung "Wie ist das Leben?")',
-                              input: 'Mro mu te sen',
                             ),
                           ),
                         ],
@@ -229,8 +214,19 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                     ),
                   ],
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(16.0),
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.white),
+                    borderRadius: BorderRadius.circular(10.0),
+                    color: Color.fromRGBO(255, 87, 87, 1),
+                  ),
+                  margin: EdgeInsets.fromLTRB(24.0, 0.0, 24.0, 0.0),
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
+                    child: Text(
+                        'Grußformen',
+                        style: kNormalStyle),
+                  ),
                 ),
                 Row(
                   children: [
@@ -240,9 +236,27 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: TripleVowelsRectangleWithTextvier(
-                                functionality: 'Grüße'),
-                          )
+                            child: SentencesTwoRectangleWithText(
+                              functionality:
+                              'Guten Morgen',
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: SentencesTwoRectangleWithText(
+                              functionality:
+                              'Guten Nachmittag',
+                              input: 'Me ma who akye',
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: SentencesTwoRectangleWithText(
+                              functionality:
+                              'Guten Abend',
+                              input: 'Me ma who akye',
+                            ),
+                          ),
                         ],
                       ),
                     ),
@@ -254,7 +268,7 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesTwoRectangleWithText(
                               functionality:
-                                  'Guten Morgen - Me ma wo akye, Maakye (Kurzform)',
+                                  'Me ma wo akye, Maakye (Kurzform)',
                               input: 'Me ma who akye',
                             ),
                           ),
@@ -262,7 +276,7 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesTwoRectangleWithText(
                               functionality:
-                                  'Guten Nachmittag - Me ma wo aha, Maaha (Kurzform)',
+                                  'Me ma wo aha, Maaha (Kurzform)',
                               input: 'Me ma wo aha',
                             ),
                           ),
@@ -270,7 +284,7 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesTwoRectangleWithText(
                               functionality:
-                                  'Guten Abend - Me ma wo adwo, Maadwo (Kurzform)',
+                                  'Me ma wo adwo, Maadwo (Kurzform)',
                               input: 'Me ma wo adno',
                             ),
                           ),
@@ -305,7 +319,7 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesTwoRectangleWithText(
                               functionality:
-                                  'Yaa nua (So antwortest du einer Person, der genauso alt ist, wie z.B. ein/e Freund/in, Bruder oder Schwester)',
+                                  'Yaa nua (So antwortest du einer Person, die genauso alt ist, wie du.)',
                               input: 'yaa nua',
                             ),
                           ),
@@ -349,7 +363,7 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: TripleVowelsRectangleWithTextvier(
+                            child: TripleVowelsRectangleWithTextzwei(
                                 functionality: 'Auf Wiedersehen'),
                           )
                         ],
@@ -374,10 +388,33 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                               input: 'yebehyia bio',
                             ),
                           ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Expanded(
+                      flex: 1,
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: TripleVowelsRectangleWithTextzwei(
+                                functionality: 'Gute Nacht'),
+                          )
+                        ],
+                      ),
+                    ),
+                    Expanded(
+                      flex: 1,
+                      child: Column(
+                        children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesTwoRectangleWithText(
-                              functionality: 'Gute Nacht / Schlaf gut - Da yie',
+                              functionality: 'Da yie',
                               input: 'Da yie',
                             ),
                           ),

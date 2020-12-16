@@ -168,7 +168,7 @@ class _ZeitangabenState extends State<Zeitangaben> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTextdrei(
-                              functionality: 'da diara',
+                              functionality: 'da biara',
                               input: ' da diara',
                             ),
                           ),
@@ -255,7 +255,7 @@ class _ZeitangabenState extends State<Zeitangaben> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithText(
-                                functionality: 'früher'),
+                                functionality: 'damals/früher'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),

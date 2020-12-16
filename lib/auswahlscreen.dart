@@ -43,8 +43,11 @@ class _AuswahlState extends State<Auswahl> {
                     color: Color.fromRGBO(255, 87, 87, 1),
                   ),
                   margin: EdgeInsets.fromLTRB(24.0, 0.0, 24.0, 0.0),
-                  child: Text('Welche Sprache möchtest du lernen?',
-                      style: kAuswahlStyle),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text('Welche Sprache möchtest du lernen?',
+                        style: kAuswahlStyle),
+                  ),
                 ),
               ),
               Padding(
@@ -92,9 +95,7 @@ class _AuswahlState extends State<Auswahl> {
                               ),
                             ),
                             AuswahlOptions(
-                                onPressed: () {
-                                  Navigator.pushNamed(context, HomeScreen.id);
-                                },
+                                onPressed: () {},
                                 functionality: 'Swahili'),
                           ],
                         ),
@@ -115,9 +116,7 @@ class _AuswahlState extends State<Auswahl> {
                               ),
                             ),
                             AuswahlOptions(
-                                onPressed: () {
-                                  Navigator.pushNamed(context, HomeScreen.id);
-                                },
+                                onPressed: () {},
                                 functionality: 'Lingala'),
                           ],
                         ),

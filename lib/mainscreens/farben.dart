@@ -81,7 +81,7 @@ class _FarbenState extends State<Farben> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               ColorRectangleWithText(
-                                functionality: 'ahabammono',
+                                functionality: 'ahaban mono',
                                 input: 'grun',
                               ),
                               ColorRectangleWithText(functionality: 'Grün'),
@@ -140,7 +140,7 @@ class _FarbenState extends State<Farben> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               ColorRectangleWithText(
-                                functionality: 'dodoeɛ',
+                                functionality: 'ahaban da da',
                                 input: 'braun',
                               ),
                               ColorRectangleWithText(functionality: 'Braun'),

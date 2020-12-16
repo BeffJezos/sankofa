@@ -103,7 +103,7 @@ class _TiereState extends State<Tiere> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTextvier(
-                              functionality: 'nantwie bedeɛ',
+                              functionality: 'nantwie',
                               input: 'nantwie bedee',
                             ),
                           ),
@@ -124,7 +124,7 @@ class _TiereState extends State<Tiere> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTextvier(
-                              functionality: 'adoe',
+                              functionality: 'Adwee',
                               input: 'adoe',
                             ),
                           ),
@@ -173,14 +173,14 @@ class _TiereState extends State<Tiere> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTextvier(
-                              functionality: 'etwie/ɔsebɔ',
+                              functionality: 'etwie',
                               input: 'etwie',
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTextvier(
-                              functionality: 'afofantɔ',
+                              functionality: 'afafrantɔ',
                               input: 'afofanto',
                             ),
                           ),
@@ -348,7 +348,7 @@ class _TiereState extends State<Tiere> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTextvier(
-                              functionality: 'anomaa/ntakraboa',
+                              functionality: 'anomaa',
                               input: 'anomaaentakraboa',
                             ),
                           ),
