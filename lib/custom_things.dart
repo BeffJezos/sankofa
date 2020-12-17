@@ -32,7 +32,7 @@ class AlphabetRectangleWithText extends StatelessWidget {
             child: Text(
               functionality,
               textAlign: TextAlign.center,
-              style: TextStyle(color: Colors.black),
+              style: TextStyle(color: Colors.black, fontSize: 12.0),
             ),
           ),
         ),
@@ -347,7 +347,7 @@ class NumberRectangleWithText extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: 120,
-      height: 40,
+      height: 36,
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,
@@ -390,7 +390,7 @@ class NumberRectangleWithTexteins extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: 120,
-      height: 40,
+      height: 36,
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,

@@ -96,6 +96,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                               input: 'Herz',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithTexteins(
@@ -110,6 +111,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                               input: 'Wunde',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithTexteins(
@@ -124,6 +126,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                               input: 'Hunger',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithTexteins(
@@ -138,6 +141,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                               input: 'Iss',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithTexteins(
@@ -152,6 +156,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                               input: 'Eichhoernchen',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithTexteins(
@@ -166,6 +171,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                               input: 'Tiger',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithTexteins(
@@ -198,6 +204,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             child: NumberRectangleWithText(
                                 functionality: 'Herz (Organ)'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -208,6 +215,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             child: NumberRectangleWithText(
                                 functionality: 'Wunde (Substantiv)'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -218,6 +226,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             child: NumberRectangleWithText(
                                 functionality: 'Hunger'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -228,6 +237,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             child:
                                 NumberRectangleWithText(functionality: 'Iss'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -238,6 +248,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             child: NumberRectangleWithText(
                                 functionality: 'Eichhörnchen'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -248,6 +259,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             child:
                                 NumberRectangleWithText(functionality: 'Tiger'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
