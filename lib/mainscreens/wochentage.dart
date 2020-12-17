@@ -49,68 +49,6 @@ class _WochentageState extends State<Wochentage> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: DaysRectangleWithText(
-                              functionality: 'Montag',
-                              input: 'Montag',
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
-                              functionality: 'Dienstag',
-                              input: 'Dienstag',
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
-                              functionality: 'Mittwoch',
-                              input: 'Mittwoch',
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
-                              functionality: 'Donnerstag',
-                              input: 'Donnerstag',
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
-                              functionality: 'Freitag',
-                              input: 'Freitag',
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
-                              functionality: 'Samstag',
-                              input: 'Samstag',
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
-                              functionality: 'Sonntag',
-                              input: 'Sonntag',
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.all(8.0),
-                    ),
-                    Expanded(
-                      flex: 1,
-                      child: Column(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
                               functionality: 'Edwoda/Dwoada',
                               input: 'Montag',
                             ),
@@ -154,6 +92,68 @@ class _WochentageState extends State<Wochentage> {
                             padding: const EdgeInsets.all(8.0),
                             child: DaysRectangleWithText(
                               functionality: 'Kwasiada',
+                              input: 'Sonntag',
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.all(8.0),
+                    ),
+                    Expanded(
+                      flex: 1,
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: DaysRectangleWithText(
+                              functionality: 'Montag',
+                              input: 'Montag',
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: DaysRectangleWithText(
+                              functionality: 'Dienstag',
+                              input: 'Dienstag',
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: DaysRectangleWithText(
+                              functionality: 'Mittwoch',
+                              input: 'Mittwoch',
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: DaysRectangleWithText(
+                              functionality: 'Donnerstag',
+                              input: 'Donnerstag',
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: DaysRectangleWithText(
+                              functionality: 'Freitag',
+                              input: 'Freitag',
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: DaysRectangleWithText(
+                              functionality: 'Samstag',
+                              input: 'Samstag',
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: DaysRectangleWithText(
+                              functionality: 'Sonntag',
                               input: 'Sonntag',
                             ),
                           ),

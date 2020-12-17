@@ -137,19 +137,19 @@ class _AlphabetState extends State<Alphabet> {
               Expanded(
                 flex: 1,
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     AlphabetRectangleWithText(
                       functionality: 'Ww [wä]',
                       input: 'u',
                     ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                    ),
                     AlphabetRectangleWithText(
                       functionality: 'Yy [jä]',
                       input: 'v',
                     ),
-                    Container(
-                      width: 226.0,
-                    )
                   ],
                 ),
               ),

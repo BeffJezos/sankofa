@@ -22,7 +22,7 @@ class _ZahlenState extends State<Zahlen> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(8.0, 32.0, 280.0, 32.0),
+                  padding: const EdgeInsets.fromLTRB(8.0, 32.0, 260.0, 32.0),
                   child: Text('Zahlen', style: kTitleStyle),
                 ),
                 Padding(

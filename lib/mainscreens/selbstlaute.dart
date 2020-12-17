@@ -149,7 +149,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithTexteins(
                               functionality: 'opuro',
-                              input: 'Elchhoernchen',
+                              input: 'Eichhoernchen',
                             ),
                           ),
                           Padding(

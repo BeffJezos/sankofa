@@ -541,9 +541,11 @@ class DaysRectangleWithText extends StatelessWidget {
 }
 
 class VowelsRectangleWithText extends StatelessWidget {
-  VowelsRectangleWithText({@required this.functionality});
+  VowelsRectangleWithText({@required this.functionality, this.input});
 
   final String functionality;
+  final String input;
+  final player = AudioCache();
 
   @override
   Widget build(BuildContext context) {
@@ -559,11 +561,16 @@ class VowelsRectangleWithText extends StatelessWidget {
           ),
         ),
         child: Center(
-          child: Text(
-            functionality,
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.black,
+          child:  FlatButton(
+            onPressed: () {
+              player.play('alpha/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+              ),
             ),
           ),
         ),
@@ -645,7 +652,7 @@ class TripleVowelsRectangleWithTextdrei extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: 180,
-      height: 320,
+      height: 420,
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,

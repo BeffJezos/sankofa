@@ -68,14 +68,6 @@ class _HomescreenState extends State<HomeScreen> {
                     Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
-                          functionality: 'Sankofa Sprachkurs',
-                          onPressed: () {
-                            Navigator.pushNamed(context, Sprachkurs.id);
-                          }),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: HomeScreenOptions(
                         functionality: 'Das Alphabet',
                         onPressed: () {
                           Navigator.pushNamed(context, Alphabet.id);
@@ -172,6 +164,14 @@ class _HomescreenState extends State<HomeScreen> {
                           Navigator.pushNamed(context, Tiere.id);
                         },
                       ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: HomeScreenOptions(
+                          functionality: 'Sankofa Sprachkurs',
+                          onPressed: () {
+                            Navigator.pushNamed(context, Sprachkurs.id);
+                          }),
                     ),
                   ],
                 ),

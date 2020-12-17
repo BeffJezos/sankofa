@@ -49,51 +49,87 @@ class _KonsonantenState extends State<Konsonanten> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'b’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'b’',
+                              input: 'b',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'd’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'd’',
+                              input: 'd',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'f’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'f’',
+                              input: 'f',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'g’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'g’',
+                              input: 'g',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'h’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'h’',
+                              input: 'h',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'k’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'k’',
+                              input: 'k',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: NumberRectangleWithText(functionality: 'l’'),
+                            child: NumberRectangleWithText(
+                              functionality: 'l’',
+                              input: 'l',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'm’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'm’',
+                              input: 'm',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'n’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'n’',
+                              input: 'n',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'p’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'p’',
+                              input: 'p',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'r’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'r’',
+                              input: 'r',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 's’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 's’',
+                              input: 's',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
@@ -102,11 +138,17 @@ class _KonsonantenState extends State<Konsonanten> {
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'w’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'w’',
+                              input: 'w',
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'y’'),
+                            child: VowelsRectangleWithText(
+                              functionality: 'y’',
+                              input: 'y',
+                            ),
                           ),
                         ],
                       ),
@@ -161,7 +203,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
                               functionality: 'gyedie',
-                              input: 'gyedue',
+                              input: 'gyedie',
                             ),
                           ),
                           Padding(

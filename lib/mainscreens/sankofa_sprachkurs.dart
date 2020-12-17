@@ -38,15 +38,17 @@ class _SprachkursState extends State<Sprachkurs> {
                   margin: EdgeInsets.fromLTRB(24.0, 0.0, 24.0, 0.0),
                   child: Padding(
                     padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
-                    child: Text(
-                        'Sankofa ist ein altes westafrikanisches Symbol und bedeutet soviel wie “zurück zu du den Wurzeln”'
-                        ' (um zu finden was verloren ging).Viele Afrikaner in Deutschland haben in der Vergangenheit leider versäumt,'
-                        ' ihre Heimat kennen zu lernen. Es wurde vernachlässigt, ihnen die heimatliche Sprache, Geschichte und Kultur'
-                        ' zu vermitteln.Mit Sprache können wir nicht nur kommunizieren. Sie ist auch Teil unserer Identität und ist immer'
-                        ' verknüpft mit bestimmten Kulturen und Lebensweisen. Wenn Sprache verloren geht, geht auch unwiderruflich die Kultur'
-                        ' zu Grunde.Sankofa Sprachkurs möchte helfen, das Versäumte nachzuholen und stellt deshalb Unterrichtseinheiten'
-                        ' zur Verfügung.Unser Ziel ist es, allen Interessierten die Sprache, sowie die Kultur und Geschichte zu vermitteln.',
-                        style: kNormalStyle),
+                    child: SingleChildScrollView(
+                      child: Text(
+                          'Sankofa ist ein altes westafrikanisches Symbol und bedeutet soviel wie “zurück zu du den Wurzeln”'
+                          ' (um zu finden was verloren ging).Viele Afrikaner in Deutschland haben in der Vergangenheit leider versäumt,'
+                          ' ihre Heimat kennen zu lernen. Es wurde vernachlässigt, ihnen die heimatliche Sprache, Geschichte und Kultur'
+                          ' zu vermitteln.Mit Sprache können wir nicht nur kommunizieren. Sie ist auch Teil unserer Identität und ist immer'
+                          ' verknüpft mit bestimmten Kulturen und Lebensweisen. Wenn Sprache verloren geht, geht auch unwiderruflich die Kultur'
+                          ' zu Grunde.Sankofa Sprachkurs möchte helfen, das Versäumte nachzuholen und stellt deshalb Unterrichtseinheiten'
+                          ' zur Verfügung.Unser Ziel ist es, allen Interessierten die Sprache, sowie die Kultur und Geschichte zu vermitteln.',
+                          style: kNormalStyle),
+                    ),
                   ),
                 ),
               ],
