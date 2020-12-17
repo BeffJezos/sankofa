@@ -46,8 +46,7 @@ class _AuswahlState extends State<Auswahl> {
                   child: Padding(
                     padding: const EdgeInsets.fromLTRB(24.0, 48.0, 24.0, 48.0),
                     child: Text('Welche Sprache möchtest du lernen?',
-                        textAlign: TextAlign.center,
-                        style: kAuswahlStyle),
+                        textAlign: TextAlign.center, style: kAuswahlStyle),
                   ),
                 ),
               ),
@@ -90,14 +89,13 @@ class _AuswahlState extends State<Auswahl> {
                                 shape: BoxShape.rectangle,
                                 image: new DecorationImage(
                                   image: new AssetImage(
-                                      'assets/images/Swahili.jpeg'),
+                                      'assets/images/Lingala.jpeg'),
                                   fit: BoxFit.fill,
                                 ),
                               ),
                             ),
                             AuswahlOptions(
-                                onPressed: () {},
-                                functionality: 'Swahili'),
+                                onPressed: () {}, functionality: 'Swahili'),
                           ],
                         ),
                       ),
@@ -110,15 +108,14 @@ class _AuswahlState extends State<Auswahl> {
                               decoration: BoxDecoration(
                                 shape: BoxShape.rectangle,
                                 image: new DecorationImage(
-                                  image:
-                                      new AssetImage('assets/images/Lingala.jpeg'),
+                                  image: new AssetImage(
+                                      'assets/images/Swahili.jpeg'),
                                   fit: BoxFit.fill,
                                 ),
                               ),
                             ),
                             AuswahlOptions(
-                                onPressed: () {},
-                                functionality: 'Lingala'),
+                                onPressed: () {}, functionality: 'Lingala'),
                           ],
                         ),
                       ),

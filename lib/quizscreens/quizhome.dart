@@ -28,14 +28,14 @@ class _QuizHomeState extends State<QuizHome> {
     "Ein Quiz über die Farben der Sprache Twi.",
     "Ein Quiz über die Zahlen der Sprache Twi.",
     "Ein Quiz über die Lebensmittel der Sprache Twi.",
-    "Ein Quiz über die Wochentage und Namen der Sprache Twi.",
+    "Ein Quiz über die Wochentage der Sprache Twi.",
     "Ein Quiz über die Konsonanten der Sprache Twi.",
     "Ein Quiz über die Selbstlaute der Sprache Twi.",
     "Ein Quiz über häufige Twi Sätze.",
-    "Ein Quiz über die Fragenwörter udn Richtungsangaben der Sprache Twi.",
+    "Ein Quiz über die Fragenwörter und Richtungsangaben der Sprache Twi.",
     "Ein Quiz über die Zeitangaben der Sprache Twi.",
     "Ein Quiz über die Tiere der Sprache Twi.",
-    "Ein Quiz über alle in der App behandelten Themen der Sprache Twi. Gye ani! ",
+    "Ein Quiz über alle in der App behandelten Themen der Sprache Twi. Viel Glück!",
   ];
 
   Widget customcard(String langname, String image, String des) {
@@ -85,6 +85,7 @@ class _QuizHomeState extends State<QuizHome> {
                 Center(
                   child: Text(
                     langname,
+                    textAlign: TextAlign.start,
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.white,

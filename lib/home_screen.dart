@@ -89,7 +89,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Selbstlaute',
-                        description: 'Lerne die sieben Selbstlaute  der Akan Sprache kennnen',
+                        description: 'Lerne die sieben Selbstlaute kennnen',
                         onPressed: () {
                           Navigator.pushNamed(context, Selbstlaute.id);
                         },
