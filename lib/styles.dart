@@ -14,6 +14,6 @@ const kNormalStyle = TextStyle(
 
 const kAuswahlStyle = TextStyle(
   color: Colors.white,
-  fontSize: 22.0,
+  fontSize: 24.0,
   fontWeight: FontWeight.w300,
 );

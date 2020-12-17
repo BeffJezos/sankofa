@@ -22,11 +22,11 @@ class _ResultpageState extends State<Resultpage> {
 
   @override
   void initState() {
-    if (marks < 10) {
+    if (marks < 50) {
       image = images[2];
       message = "Strenge dich beim nächsten Mal mehr an!\n" +
           "Dein Ergebnis: $marks Punkte!";
-    } else if (marks < 15) {
+    } else if (marks < 70) {
       image = images[1];
       message = "Das war nicht schlecht, aber du kannst es besser!\n" +
           "Dein Ergebnis: $marks Punkte!";

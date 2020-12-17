@@ -6,7 +6,7 @@
     "4": "Wie lautet der Akan-Tag für Donnerstag?",
     "5": "Wie lautet der Akan-Tag für Freitag?",
     "6": "Wie lautet der Akan-Tag für Samstag?",
-    "7": "Wie lautet der Akan-Tag für Soinntag?",
+    "7": "Wie lautet der Akan-Tag für Sonntag?",
     "8": "Wie lautet der Akan-Tag für Montag?",
     "9": "Wie lautet der Akan-Tag für Dienstag?",
     "10": "Wie lautet der Akan-Tag für Mittwoch?",
@@ -15,7 +15,7 @@
     "13": "Wie lautet der Akan-Tag für Samstag?",
     "14": "Wie lautet der Akan-Tag für Soinntag?",
     "15": "Wie lautet der Akan-Tag für Samstag?",
-    "16": "Wie lautet der Akan-Tag für Soinntag?",
+    "16": "Wie lautet der Akan-Tag für Sonntag?",
     "17": "Wie lautet der Akan-Tag für Montag?",
     "18": "Wie lautet der Akan-Tag für Dienstag?",
     "19": "Wie lautet der Akan-Tag für Mittwoch?",
@@ -24,7 +24,7 @@
   {
     "1": {
       "a": "Memeneda",
-      "b": "Edwoda/Dwoadaa"
+      "b": "Edwoda/Dwoada"
     },
     "2": {
       "a": "Efiada/Fiada",
@@ -35,7 +35,7 @@
       "b": "Kwasiada"
     },
     "4": {
-      "a": "Ebenada/Benad",
+      "a": "Ebenada/Benada",
       "b": "Yawoada"
     },
     "5": {

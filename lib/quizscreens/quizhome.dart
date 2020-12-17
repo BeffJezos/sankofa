@@ -131,7 +131,7 @@ class _QuizHomeState extends State<QuizHome> {
           customcard("Farben", images[0], des[0]),
           customcard("Zahlen", images[1], des[1]),
           customcard("Lebensmittel", images[2], des[2]),
-          customcard("Wochentage und Namen", images[3], des[3]),
+          customcard("Wochentage", images[3], des[3]),
           customcard("Konsonanten", images[4], des[4]),
           customcard("Selbstlaute", images[5], des[5]),
           customcard("Häufige Twi Sätze", images[6], des[6]),

@@ -27,7 +27,7 @@ class Getjson extends StatelessWidget {
       assettoload = "assets/quize/numberquiz.json";
     } else if (langname == "Lebensmittel") {
       assettoload = "assets/quize/lebensmittelquiz.json";
-    } else if (langname == "Wochentage und Namen") {
+    } else if (langname == "Wochentage") {
       assettoload = "assets/quize/wochentagequiz.json";
     } else if (langname == "Konsonanten") {
       assettoload = "assets/quize/konsonantenquiz";
@@ -230,6 +230,7 @@ class _quizpageState extends State<quizpage> {
         onPressed: () => checkanswer(k),
         child: Text(
           mydata[1][i.toString()][k],
+          textAlign: TextAlign.center,
           style: TextStyle(
             color: Colors.white,
             fontFamily: "Roboto",

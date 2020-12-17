@@ -18,12 +18,12 @@ class _AuswahlState extends State<Auswahl> {
       body: SafeArea(
         child: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Padding(
                 padding: const EdgeInsets.all(4.0),
                 child: Container(
-                  width: 200,
+                  width: 190,
                   height: 180,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
@@ -42,16 +42,17 @@ class _AuswahlState extends State<Auswahl> {
                   decoration: BoxDecoration(
                     color: Color.fromRGBO(255, 87, 87, 1),
                   ),
-                  margin: EdgeInsets.fromLTRB(24.0, 0.0, 24.0, 0.0),
+                  margin: EdgeInsets.fromLTRB(4.0, 0.0, 4.0, 0.0),
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.fromLTRB(24.0, 48.0, 24.0, 48.0),
                     child: Text('Welche Sprache möchtest du lernen?',
+                        textAlign: TextAlign.center,
                         style: kAuswahlStyle),
                   ),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(4.0),
+                padding: const EdgeInsets.fromLTRB(4.0, 4.0, 4.0, 160.0),
                 child: Center(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -89,7 +90,7 @@ class _AuswahlState extends State<Auswahl> {
                                 shape: BoxShape.rectangle,
                                 image: new DecorationImage(
                                   image: new AssetImage(
-                                      'assets/images/Swahili Flagge.png'),
+                                      'assets/images/Swahili.jpeg'),
                                   fit: BoxFit.fill,
                                 ),
                               ),
@@ -110,7 +111,7 @@ class _AuswahlState extends State<Auswahl> {
                                 shape: BoxShape.rectangle,
                                 image: new DecorationImage(
                                   image:
-                                      new AssetImage('assets/images/Congo.png'),
+                                      new AssetImage('assets/images/Lingala.jpeg'),
                                   fit: BoxFit.fill,
                                 ),
                               ),

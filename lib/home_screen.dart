@@ -69,6 +69,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Das Alphabet',
+                        description: 'Lerne das Akan (Twi) Alphabet',
                         onPressed: () {
                           Navigator.pushNamed(context, Alphabet.id);
                         },
@@ -78,6 +79,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Zahlen',
+                        description: 'Lerne die Zahle der Akan Sprache kennnen',
                         onPressed: () {
                           Navigator.pushNamed(context, Zahlen.id);
                         },
@@ -87,6 +89,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Selbstlaute',
+                        description: 'Lerne die sieben Selbstlaute  der Akan Sprache kennnen',
                         onPressed: () {
                           Navigator.pushNamed(context, Selbstlaute.id);
                         },
@@ -96,6 +99,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Konsonanten',
+                        description: 'Lerne die 15 Konsonanten des Akan (Twi) Alphabets',
                         onPressed: () {
                           Navigator.pushNamed(context, Konsonanten.id);
                         },
@@ -105,6 +109,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Häufige Twi Sätze',
+                        description: 'Lerne die häufigsten Redewendungen kennen',
                         onPressed: () {
                           Navigator.pushNamed(context, Haeufigesaetze.id);
                         },
@@ -114,6 +119,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Fragewörter',
+                        description: 'Lerne die Fragewörter der Akan Sprachen kennnen',
                         onPressed: () {
                           Navigator.pushNamed(
                               context, FragewoerterundRichtungsangaben.id);
@@ -124,6 +130,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Zeitangaben',
+                        description: 'Mache dich mit den Zeitangaben vertraut',
                         onPressed: () {
                           Navigator.pushNamed(context, Zeitangaben.id);
                         },
@@ -133,6 +140,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Wochentage',
+                        description: 'Lerne die Wochetage der Akan Sprache kennnen',
                         onPressed: () {
                           Navigator.pushNamed(context, Wochentage.id);
                         },
@@ -142,6 +150,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Lebensmittel',
+                        description: 'Lerne die Lebensmittel auf Twi kennen',
                         onPressed: () {
                           Navigator.pushNamed(context, Lebensmittel.id);
                         },
@@ -151,6 +160,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Farben',
+                        description: 'Mache dich mit den Farbe der Akan Sprache vertraut',
                         onPressed: () {
                           Navigator.pushNamed(context, Farben.id);
                         },
@@ -160,6 +170,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                         functionality: 'Tiere',
+                        description: 'Lerne die Tiere der Akan Sprache kennnen',
                         onPressed: () {
                           Navigator.pushNamed(context, Tiere.id);
                         },
@@ -169,6 +180,7 @@ class _HomescreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(12.0),
                       child: HomeScreenOptions(
                           functionality: 'Sankofa Sprachkurs',
+                          description: 'Erfahre mehr über den Sankofa Sprachkurs',
                           onPressed: () {
                             Navigator.pushNamed(context, Sprachkurs.id);
                           }),

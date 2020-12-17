@@ -4,10 +4,12 @@ class HomeScreenOptions extends StatelessWidget {
   HomeScreenOptions({
     @required this.onPressed,
     @required this.functionality,
+    @required this.description,
   });
 
   final GestureTapCallback onPressed;
   final String functionality;
+  final String description;
 
   @override
   Widget build(BuildContext context) {
@@ -23,13 +25,28 @@ class HomeScreenOptions extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(
-                functionality,
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 22.0,
-                  fontFamily: 'Roboto',
-                ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    functionality,
+                    textAlign: TextAlign.start,
+                    style: TextStyle(
+                      fontSize: 26.0,
+                      fontFamily: 'Roboto',
+                    ),
+                  ),
+                  Text(
+                    description,
+                    textAlign: TextAlign.start,
+                    style: TextStyle(
+                      fontSize: 12.0,
+                      fontFamily: 'Roboto',
+                      color: Colors.grey,
+                    ),
+                  ),
+                ],
               ),
               Icon(Icons.arrow_forward_ios_sharp),
             ],
