@@ -171,6 +171,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'bebre',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -185,6 +186,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'dadoa',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -199,6 +201,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'foro',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -213,6 +216,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'gyae',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -227,6 +231,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'hunu',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -241,6 +246,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'kuruwa',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -248,6 +254,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'lore',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -262,6 +269,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'me',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -276,6 +284,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'nante',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -290,6 +299,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'praee',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -304,6 +314,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'pra',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -318,6 +329,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'sapo',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -339,6 +351,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'to',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -353,6 +366,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'we',
                             ),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -360,6 +374,7 @@ class _KonsonantenState extends State<Konsonanten> {
                               input: 'yaree',
                             ),
                           ),
+
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -384,6 +399,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child: NumberRectangleWithText(
                                 functionality: 'Sehr viel'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -394,6 +410,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child: NumberRectangleWithText(
                                 functionality: 'Nagel (Werkzeug)'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
@@ -404,6 +421,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child: NumberRectangleWithText(
                                 functionality: 'klettern'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -414,11 +432,13 @@ class _KonsonantenState extends State<Konsonanten> {
                             child: NumberRectangleWithText(
                                 functionality: 'aufhören'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
                                 functionality: 'springen'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
@@ -429,6 +449,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child:
                                 NumberRectangleWithText(functionality: 'gehen'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
@@ -439,6 +460,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child:
                                 NumberRectangleWithText(functionality: 'LKW'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
@@ -449,6 +471,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child:
                                 NumberRectangleWithText(functionality: 'Ich'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
@@ -459,6 +482,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child: NumberRectangleWithText(
                                 functionality: 'laufen'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -469,6 +493,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child:
                                 NumberRectangleWithText(functionality: 'Besen'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
@@ -479,6 +504,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child:
                                 NumberRectangleWithText(functionality: 'fegen'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
@@ -489,6 +515,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child: NumberRectangleWithText(
                                 functionality: 'Schwamm'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
@@ -504,6 +531,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child: NumberRectangleWithText(
                                 functionality: 'werfen'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
@@ -514,6 +542,7 @@ class _KonsonantenState extends State<Konsonanten> {
                             child:
                                 NumberRectangleWithText(functionality: 'kauen'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(

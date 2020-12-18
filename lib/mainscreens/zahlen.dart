@@ -36,281 +36,281 @@ class _ZahlenState extends State<Zahlen> {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '0'),
+                                  NumberRectangleWithTextzwei(functionality: '0'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '1'),
+                                  NumberRectangleWithTextzwei(functionality: '1'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '2'),
+                                  NumberRectangleWithTextzwei(functionality: '2'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '3'),
+                                  NumberRectangleWithTextzwei(functionality: '3'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '4'),
+                                  NumberRectangleWithTextzwei(functionality: '4'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '5'),
+                                  NumberRectangleWithTextzwei(functionality: '5'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '6'),
+                                  NumberRectangleWithTextzwei(functionality: '6'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '7'),
+                                  NumberRectangleWithTextzwei(functionality: '7'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '8'),
+                                  NumberRectangleWithTextzwei(functionality: '8'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '9'),
+                                  NumberRectangleWithTextzwei(functionality: '9'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '10'),
+                                  NumberRectangleWithTextzwei(functionality: '10'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '11'),
+                                  NumberRectangleWithTextzwei(functionality: '11'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '12'),
+                                  NumberRectangleWithTextzwei(functionality: '12'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '13'),
+                                  NumberRectangleWithTextzwei(functionality: '13'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '14'),
+                                  NumberRectangleWithTextzwei(functionality: '14'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '15'),
+                                  NumberRectangleWithTextzwei(functionality: '15'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '16'),
+                                  NumberRectangleWithTextzwei(functionality: '16'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '17'),
+                                  NumberRectangleWithTextzwei(functionality: '17'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '18'),
+                                  NumberRectangleWithTextzwei(functionality: '18'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '19'),
+                                  NumberRectangleWithTextzwei(functionality: '19'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '20'),
+                                  NumberRectangleWithTextzwei(functionality: '20'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '21'),
+                                  NumberRectangleWithTextzwei(functionality: '21'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '30'),
+                                  NumberRectangleWithTextzwei(functionality: '30'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '40'),
+                                  NumberRectangleWithTextzwei(functionality: '40'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '50'),
+                                  NumberRectangleWithTextzwei(functionality: '50'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '60'),
+                                  NumberRectangleWithTextzwei(functionality: '60'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '70'),
+                                  NumberRectangleWithTextzwei(functionality: '70'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '80'),
+                                  NumberRectangleWithTextzwei(functionality: '80'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '90'),
+                                  NumberRectangleWithTextzwei(functionality: '90'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '100'),
+                                  NumberRectangleWithTextzwei(functionality: '100'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '101'),
+                                  NumberRectangleWithTextzwei(functionality: '101'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '102'),
+                                  NumberRectangleWithTextzwei(functionality: '102'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '110'),
+                                  NumberRectangleWithTextzwei(functionality: '110'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '111'),
+                                  NumberRectangleWithTextzwei(functionality: '111'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '112'),
+                                  NumberRectangleWithTextzwei(functionality: '112'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '120'),
+                                  NumberRectangleWithTextzwei(functionality: '120'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '121'),
+                                  NumberRectangleWithTextzwei(functionality: '121'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '122'),
+                                  NumberRectangleWithTextzwei(functionality: '122'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '200'),
+                                  NumberRectangleWithTextzwei(functionality: '200'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '300'),
+                                  NumberRectangleWithTextzwei(functionality: '300'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '400'),
+                                  NumberRectangleWithTextzwei(functionality: '400'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '500'),
+                                  NumberRectangleWithTextzwei(functionality: '500'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '600'),
+                                  NumberRectangleWithTextzwei(functionality: '600'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '700'),
+                                  NumberRectangleWithTextzwei(functionality: '700'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '800'),
+                                  NumberRectangleWithTextzwei(functionality: '800'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child:
-                                  NumberRectangleWithText(functionality: '900'),
+                                  NumberRectangleWithTextzwei(functionality: '900'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithText(
+                              child: NumberRectangleWithTextzwei(
                                   functionality: '1000'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithText(
+                              child: NumberRectangleWithTextzwei(
                                   functionality: '2000'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithText(
+                              child: NumberRectangleWithTextzwei(
                                   functionality: '3000'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithText(
+                              child: NumberRectangleWithTextzwei(
                                   functionality: '4000'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithText(
+                              child: NumberRectangleWithTextzwei(
                                   functionality: '5000'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithText(
+                              child: NumberRectangleWithTextzwei(
                                   functionality: '6000'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithText(
+                              child: NumberRectangleWithTextzwei(
                                   functionality: '7000'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithText(
+                              child: NumberRectangleWithTextzwei(
                                   functionality: '8000'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithText(
+                              child: NumberRectangleWithTextzwei(
                                   functionality: '9000'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithText(
+                              child: NumberRectangleWithTextzwei(
                                   functionality: '10000'),
                             ),
                           ],
