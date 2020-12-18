@@ -197,7 +197,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithText(
                                 functionality:
-                                    'Auf den Kopf transportieren'),
+                                    'Etwas auf dem Kopf transportieren'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
