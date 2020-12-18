@@ -438,23 +438,23 @@ class _KonsonantenState extends State<Konsonanten> {
                             child: NumberRectangleWithText(
                                 functionality: 'springen'),
                           ),
-                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
                                 NumberRectangleWithText(functionality: 'sehen'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
                                 NumberRectangleWithText(functionality: 'gehen'),
                           ),
-                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
                                 NumberRectangleWithText(functionality: 'Tasse'),
                           ),
+                          Padding(padding: const EdgeInsets.all(4.0),),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child:
