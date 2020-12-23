@@ -224,7 +224,8 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                     ),
                     margin: EdgeInsets.fromLTRB(24.0, 0.0, 24.0, 0.0),
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
+                      padding:
+                          const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
                       child: Text('Grußformen', style: kNormalStyle),
                     ),
                   ),
@@ -239,7 +240,7 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesTwoRectangleWithText(
                               functionality: 'Me ma wo akye, Maakye (Kurzform)',
-                              input: 'Me ma who akye',
+                              input: 'Me ma wo akye',
                             ),
                           ),
                           Padding(
@@ -390,7 +391,6 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                 ),
                 Row(
                   children: [
-
                     Expanded(
                       flex: 1,
                       child: Column(

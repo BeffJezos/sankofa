@@ -49,31 +49,31 @@ class _SelbstlauteState extends State<Selbstlaute> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'a’'),
+                            child: VowelsRectangleWithText(functionality: 'a’', input: 'a',),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'e’'),
+                            child: VowelsRectangleWithText(functionality: 'e’', input: 'd',),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'ɛ’'),
+                            child: VowelsRectangleWithText(functionality: 'ɛ’', input: 'e',),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'i’'),
+                            child: VowelsRectangleWithText(functionality: 'i’', input: 'i',),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'o’'),
+                            child: VowelsRectangleWithText(functionality: 'o’', input: 'n',),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'ɔ’'),
+                            child: VowelsRectangleWithText(functionality: 'ɔ’', input: 'o',),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: VowelsRectangleWithText(functionality: 'u’'),
+                            child: VowelsRectangleWithText(functionality: 'u’', input: 't',),
                           ),
                         ],
                       ),
@@ -93,7 +93,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithTexteins(
                               functionality: 'akoma',
-                              input: 'Herz',
+                              input: 'Herz (Organ)',
                             ),
                           ),
                           Padding(padding: const EdgeInsets.all(4.0),),
@@ -153,7 +153,7 @@ class _SelbstlauteState extends State<Selbstlaute> {
                             padding: const EdgeInsets.all(4.0),
                             child: NumberRectangleWithTexteins(
                               functionality: 'opuro',
-                              input: 'Eichhoernchen',
+                              input: 'EIchhoernchen',
                             ),
                           ),
                           Padding(padding: const EdgeInsets.all(4.0),),

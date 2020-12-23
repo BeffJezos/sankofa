@@ -605,6 +605,49 @@ class NumberRectangleWithTextv extends StatelessWidget {
   }
 }
 
+class NumberRectangleWithTextk extends StatelessWidget {
+  NumberRectangleWithTextk({
+    @required this.functionality,
+    @required this.input,
+  });
+
+  final String functionality;
+  final String input;
+  final player = AudioCache();
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 120,
+      height: 36,
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(color: Colors.white),
+          borderRadius: BorderRadius.all(
+            Radius.circular(10),
+          ),
+        ),
+        child: Center(
+          child: FlatButton(
+            onPressed: () {
+              player.play('alpha/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class NumberRectangleWithTexteins extends StatelessWidget {
   NumberRectangleWithTexteins({
     @required this.functionality,
@@ -947,9 +990,11 @@ class VowelsRectangleWithText extends StatelessWidget {
 }
 
 class TripleVowelsRectangleWithText extends StatelessWidget {
-  TripleVowelsRectangleWithText({@required this.functionality});
+  TripleVowelsRectangleWithText({@required this.functionality, this.input});
 
   final String functionality;
+  final String input;
+  final player = AudioCache();
 
   @override
   Widget build(BuildContext context) {
@@ -965,11 +1010,17 @@ class TripleVowelsRectangleWithText extends StatelessWidget {
           ),
         ),
         child: Center(
-          child: Text(
-            functionality,
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.black,
+          child: FlatButton(
+            onPressed: () {
+              player.play('alpha/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ),
