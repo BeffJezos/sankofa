@@ -68,7 +68,7 @@
     },
     "12": {
       "a": "Unter (dir)",
-      "b": "Links"
+      "b": "Geradeaus"
     },
     "13": {
       "a": "Geradeaus",
@@ -76,7 +76,7 @@
     },
     "14": {
       "a": "Zurück",
-      "b": "Vorne"
+      "b": "Hier"
     },
     "15": {
       "a": "Hier",
@@ -84,7 +84,7 @@
     },
     "16": {
       "a": "Unter (dir)",
-      "b": "Links"
+      "b": "Geradeaus"
     },
     "17": {
       "a": "In der Nähe von...",
@@ -115,11 +115,11 @@
     "9": "Welcher?",
     "10": "Rechts",
     "11": "Links",
-    "12": "Links",
+    "12": "Geradeaus",
     "13": "Geradeaus",
-    "14": "Zurück",
+    "14": "Hier",
     "15": "Hier",
-    "16": "Links",
+    "16": "Geradeaus",
     "17": "In der Nähe von...",
     "18": "Weit entfernt.",
     "19": "Kreuzung",

@@ -189,67 +189,67 @@ class _ZeitangabenState extends State<Zeitangaben> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Heute'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Gestern'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Morgen'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Vorgestern'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Morgens, Vormittag'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Mittag'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Nachmittag'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Abend, Nacht'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'jetzt'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'selten'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'oft, immer'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'niemals'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'schnell'),
                           ),
                           Padding(
@@ -259,27 +259,27 @@ class _ZeitangabenState extends State<Zeitangaben> {
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Übermorgen'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'später'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'manchmal'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'täglich'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'manchmal'),
                           ),
                         ],
@@ -372,43 +372,43 @@ class _ZeitangabenState extends State<Zeitangaben> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Zeit'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: '(Die Uhr) schlägt'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality:
                                     'Wie spät ist es? / Wie viel Uhr haben wir?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Die Uhr schlägt'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Uhr'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Stunden'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Minuten'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Sekunden'),
                           ),
                         ],

@@ -322,392 +322,392 @@ class _ZahlenState extends State<Zahlen> {
                           children: [
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ohunu/hwee',
                                 input: '0',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'baako',
                                 input: '1',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mmienu',
                                 input: '2',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mmiɛnsa',
                                 input: '3',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ɛnan',
                                 input: '4',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'enum',
                                 input: '5',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'nsia',
                                 input: '6',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'nson',
                                 input: '7',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'nwɔtwe',
                                 input: '8',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'nkron',
                                 input: '9',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'edu',
                                 input: '10',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'dubaako',
                                 input: '11',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'dumienu',
                                 input: '12',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'dumiɛnsa',
                                 input: '13',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'dunan',
                                 input: '14',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'dunum',
                                 input: '15',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'dunsia',
                                 input: '16',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'dunson',
                                 input: '17',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'dunwɔtwe',
                                 input: '18',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'dunkron',
                                 input: '19',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'aduonu',
                                 input: '20',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'aduonu baako',
                                 input: '21',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'aduasa',
                                 input: '30',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'aduanan',
                                 input: '40',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'aduonum',
                                 input: '50',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'aduosia',
                                 input: '60',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'aduɔson',
                                 input: '70',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'aduɔwɔtwe',
                                 input: '80',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'aduɔkron',
                                 input: '90',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ɔha',
                                 input: '100',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ɔha ne baako',
                                 input: '101',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ɔha ne mmienu',
                                 input: '102',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ɔha ne du',
                                 input: '110',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ɔha ne dubaako',
                                 input: '111',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ɔha ne dumien',
                                 input: '112',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ɔha ne aduonu',
                                 input: '120',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ɔha ne aduonu baako',
                                 input: '121',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ɔha ne aduonu mmienu',
                                 input: '122',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ahanu',
                                 input: '200',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ahasa',
                                 input: '300',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ahanan',
                                 input: '400',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ahanum',
                                 input: '500',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ahansia',
                                 input: '600',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ahanson',
                                 input: '700',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ahanwɔtwe',
                                 input: '800',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'ahankron',
                                 input: '900',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'apem',
                                 input: '1000',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mpem mmienu/mpenu',
                                 input: '2000',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mpem mmiɛnsa',
                                 input: '3000',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mpem nan',
                                 input: '4000',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mpen num',
                                 input: '5000',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mpem nsia',
                                 input: '6000',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mpem nson',
                                 input: '7000',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mpem nwɔtwe',
                                 input: '8000',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mpem nkron',
                                 input: '9000',
                               ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: NumberRectangleWithTextzwei(
+                              child: NumberRectangleWithTextd(
                                 functionality: 'mpem du',
                                 input: '10000',
                               ),

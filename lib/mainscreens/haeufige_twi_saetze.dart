@@ -84,32 +84,32 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithTextzwei(
+                            child: SentencesRectangleWithTextzweiv(
                                 functionality: 'Wie heißt du?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithTextzwei(
+                            child: SentencesRectangleWithTextzweiv(
                                 functionality: 'Ich heiße...'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithTextzwei(
+                            child: SentencesRectangleWithTextzweiv(
                                 functionality: 'Woher kommst du?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithTextzwei(
+                            child: SentencesRectangleWithTextzweiv(
                                 functionality: 'Ich komme aus...'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithTextzwei(
+                            child: SentencesRectangleWithTextzweiv(
                                 functionality: 'Wie alt bist du?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithTextzwei(
+                            child: SentencesRectangleWithTextzweiv(
                                 functionality: 'Ich bin... Jahre alt.'),
                           ),
                         ],
@@ -265,20 +265,20 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesTwoRectangleWithText(
+                            child: SentencesTwoRectangleWithTextv(
                               functionality: 'Guten Morgen',
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesTwoRectangleWithText(
+                            child: SentencesTwoRectangleWithTextv(
                               functionality: 'Guten Nachmittag',
                               input: 'Me ma who akye',
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesTwoRectangleWithText(
+                            child: SentencesTwoRectangleWithTextv(
                               functionality: 'Guten Abend',
                               input: 'Me ma who akye',
                             ),

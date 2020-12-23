@@ -32,7 +32,10 @@ class AlphabetRectangleWithText extends StatelessWidget {
             child: Text(
               functionality,
               textAlign: TextAlign.center,
-              style: TextStyle(color: Colors.black, fontSize: 12.0),
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 11.0,
+                  fontWeight: FontWeight.bold),
             ),
           ),
         ),
@@ -74,6 +77,50 @@ class SentencesRectangleWithText extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class SentencesRectangleWithTextv extends StatelessWidget {
+  SentencesRectangleWithTextv({
+    @required this.functionality,
+    @required this.input,
+  });
+
+  final String functionality;
+  final String input;
+  final player = AudioCache();
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 180,
+      height: 40,
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(color: Colors.white),
+          borderRadius: BorderRadius.all(
+            Radius.circular(10),
+          ),
+        ),
+        child: Center(
+          child: FlatButton(
+            onPressed: () {
+              player.play('alpha/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.normal,
               ),
             ),
           ),
@@ -116,6 +163,7 @@ class SentencesRectangleWithTexteins extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ),
@@ -158,6 +206,50 @@ class SentencesRectangleWithTextzwei extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class SentencesRectangleWithTextzweiv extends StatelessWidget {
+  SentencesRectangleWithTextzweiv({
+    @required this.functionality,
+    @required this.input,
+  });
+
+  final String functionality;
+  final String input;
+  final player = AudioCache();
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 180,
+      height: 40,
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(color: Colors.white),
+          borderRadius: BorderRadius.all(
+            Radius.circular(10),
+          ),
+        ),
+        child: Center(
+          child: FlatButton(
+            onPressed: () {
+              player.play('haeufigetwisaetze/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.normal,
               ),
             ),
           ),
@@ -200,6 +292,7 @@ class SentencesRectangleWithTextdrei extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ),
@@ -242,6 +335,7 @@ class SentencesRectangleWithTextvier extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ),
@@ -284,6 +378,50 @@ class SentencesTwoRectangleWithText extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class SentencesTwoRectangleWithTextv extends StatelessWidget {
+  SentencesTwoRectangleWithTextv({
+    @required this.functionality,
+    @required this.input,
+  });
+
+  final String functionality;
+  final String input;
+  final player = AudioCache();
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 180,
+      height: 95,
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(color: Colors.white),
+          borderRadius: BorderRadius.all(
+            Radius.circular(10),
+          ),
+        ),
+        child: Center(
+          child: FlatButton(
+            onPressed: () {
+              player.play('haeufigetwisaetze/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.normal,
               ),
             ),
           ),
@@ -324,7 +462,53 @@ class ColorRectangleWithText extends StatelessWidget {
             child: Text(
               functionality,
               textAlign: TextAlign.center,
-              style: TextStyle(color: Colors.black),
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class ColorRectangleWithTextv extends StatelessWidget {
+  ColorRectangleWithTextv({
+    @required this.functionality,
+    @required this.input,
+  });
+
+  final String functionality;
+  final String input;
+  final player = AudioCache();
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 85,
+      height: 65,
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(color: Colors.white),
+          borderRadius: BorderRadius.all(
+            Radius.circular(10),
+          ),
+        ),
+        child: Center(
+          child: FlatButton(
+            onPressed: () {
+              player.play('farben/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.normal,
+              ),
             ),
           ),
         ),
@@ -367,6 +551,51 @@ class NumberRectangleWithText extends StatelessWidget {
               style: TextStyle(
                 fontSize: 11,
                 color: Colors.black,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class NumberRectangleWithTextv extends StatelessWidget {
+  NumberRectangleWithTextv({
+    @required this.functionality,
+    @required this.input,
+  });
+
+  final String functionality;
+  final String input;
+  final player = AudioCache();
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 120,
+      height: 36,
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(color: Colors.white),
+          borderRadius: BorderRadius.all(
+            Radius.circular(10),
+          ),
+        ),
+        child: Center(
+          child: FlatButton(
+            onPressed: () {
+              player.play('konsonanten/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 11,
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ),
@@ -409,6 +638,7 @@ class NumberRectangleWithTexteins extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ),
@@ -451,6 +681,50 @@ class NumberRectangleWithTextzwei extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class NumberRectangleWithTextd extends StatelessWidget {
+  NumberRectangleWithTextd({
+    @required this.functionality,
+    @required this.input,
+  });
+
+  final String functionality;
+  final String input;
+  final player = AudioCache();
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 120,
+      height: 40,
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(color: Colors.white),
+          borderRadius: BorderRadius.all(
+            Radius.circular(10),
+          ),
+        ),
+        child: Center(
+          child: FlatButton(
+            onPressed: () {
+              player.play('zahlen/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ),
@@ -491,7 +765,53 @@ class GroceriesRectangleWithText extends StatelessWidget {
             child: Text(
               functionality,
               textAlign: TextAlign.center,
-              style: TextStyle(color: Colors.black),
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class GroceriesRectangleWithTextv extends StatelessWidget {
+  GroceriesRectangleWithTextv({
+    @required this.functionality,
+    @required this.input,
+  });
+
+  final String functionality;
+  final String input;
+  final player = AudioCache();
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 180,
+      height: 40,
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(color: Colors.white),
+          borderRadius: BorderRadius.all(
+            Radius.circular(10),
+          ),
+        ),
+        child: Center(
+          child: FlatButton(
+            onPressed: () {
+              player.play('lebensmittel/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.normal,
+              ),
             ),
           ),
         ),
@@ -531,7 +851,53 @@ class DaysRectangleWithText extends StatelessWidget {
             child: Text(
               functionality,
               textAlign: TextAlign.center,
-              style: TextStyle(color: Colors.black),
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class DaysRectangleWithTextv extends StatelessWidget {
+  DaysRectangleWithTextv({
+    @required this.functionality,
+    @required this.input,
+  });
+
+  final String functionality;
+  final String input;
+  final player = AudioCache();
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 180,
+      height: 40,
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(color: Colors.white),
+          borderRadius: BorderRadius.all(
+            Radius.circular(10),
+          ),
+        ),
+        child: Center(
+          child: FlatButton(
+            onPressed: () {
+              player.play('wochentage/$input.mp3');
+            },
+            child: Text(
+              functionality,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.normal,
+              ),
             ),
           ),
         ),
@@ -561,7 +927,7 @@ class VowelsRectangleWithText extends StatelessWidget {
           ),
         ),
         child: Center(
-          child:  FlatButton(
+          child: FlatButton(
             onPressed: () {
               player.play('alpha/$input.mp3');
             },
@@ -570,6 +936,7 @@ class VowelsRectangleWithText extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ),
@@ -635,6 +1002,7 @@ class TripleVowelsRectangleWithTextzwei extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.black,
+              fontWeight: FontWeight.normal,
             ),
           ),
         ),
@@ -667,6 +1035,7 @@ class TripleVowelsRectangleWithTextdrei extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.black,
+              fontWeight: FontWeight.normal,
             ),
           ),
         ),
