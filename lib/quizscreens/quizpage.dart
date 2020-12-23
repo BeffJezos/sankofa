@@ -282,7 +282,7 @@ class _quizpageState extends State<quizpage> {
               flex: 3,
               child: Container(
                 padding: EdgeInsets.all(15.0),
-                alignment: Alignment.bottomLeft,
+                alignment: Alignment.bottomCenter,
                 child: Text(
                   mydata[0][i.toString()],
                   textAlign: TextAlign.center,
