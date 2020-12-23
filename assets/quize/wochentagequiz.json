@@ -13,7 +13,7 @@
     "11": "Wie lautet der Akan-Tag für Donnerstag?",
     "12": "Wie lautet der Akan-Tag für Freitag?",
     "13": "Wie lautet der Akan-Tag für Samstag?",
-    "14": "Wie lautet der Akan-Tag für Soinntag?",
+    "14": "Wie lautet der Akan-Tag für Sonntag?",
     "15": "Wie lautet der Akan-Tag für Samstag?",
     "16": "Wie lautet der Akan-Tag für Sonntag?",
     "17": "Wie lautet der Akan-Tag für Montag?",
@@ -44,14 +44,14 @@
     },
     "6": {
       "a": "Memeneda",
-      "b": "Edwoda/Dwoadaa"
+      "b": "Edwoda/Dwoada"
     },
     "7": {
       "a": "Kwasiada",
-      "b": "Edwoda/Dwoadaa"
+      "b": "Edwoda/Dwoada"
     },
     "8": {
-      "a": "Edwoda/Dwoadaa",
+      "a": "Edwoda/Dwoada",
       "b": "Memeneda"
     },
     "9": {
@@ -64,31 +64,31 @@
     },
     "11": {
       "a": "Yawoada",
-      "b": "Ebenada/Benad"
+      "b": "Ebenada/Benada"
     },
     "12": {
       "a": "Memeneda",
       "b": "Efiada/Fiada"
     },
     "13": {
-      "a": "Edwoda/Dwoadaa",
+      "a": "Edwoda/Dwoada",
       "b": "Memeneda"
     },
     "14": {
-      "a": "Edwoda/Dwoadaa",
+      "a": "Edwoda/Dwoada",
       "b": "Kwasiada"
     },
     "15": {
-      "a": "Edwoda/Dwoadaa",
+      "a": "Edwoda/Dwoada",
       "b": "Memeneda"
     },
     "16": {
-      "a": "Edwoda/Dwoadaa",
+      "a": "Edwoda/Dwoada",
       "b": "Kwasiada"
     },
     "17": {
       "a": "Memeneda",
-      "b": "Edwoda/Dwoadaa"
+      "b": "Edwoda/Dwoada"
     },
     "18": {
       "a": "Efiada/Fiada",
@@ -99,7 +99,7 @@
       "b": "Kwasiada"
     },
     "20": {
-      "a": "Ebenada/Benad",
+      "a": "Ebenada/Benada",
       "b": "Yawoada"
     }
   },

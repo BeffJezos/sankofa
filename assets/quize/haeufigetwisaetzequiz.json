@@ -27,8 +27,8 @@
       "b": "Was machst du?"
     },
     "2": {
-      "a": "Man nennt mich...",
-      "b": "Man kennt dich..."
+      "a": "Ich heiße...",
+      "b": "Ich komme aus..."
     },
     "3": {
       "a": "Antwort auf einen Gruß bei Person im gleichen Alter.",
@@ -105,7 +105,7 @@
   },
   {
     "1": "Wie heißt du?",
-    "2": "Man nennt mich...",
+    "2": "Ich heiße...",
     "3": "Antwort auf einen Gruß bei Person im gleichen Alter.",
     "4": "Woher kommst du?",
     "5": "Ich komme aus....",
