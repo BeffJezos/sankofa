@@ -67,23 +67,37 @@
       "b": "Unten"
     },
     "12": {
+<<<<<<< HEAD
       "a": "Geradeaus",
       "b": "Links"
+=======
+      "a": "Unter (dir)",
+      "b": "Geradeaus"
+>>>>>>> b55f2a8068d39487a2a4c9cd5ecd3ae9406c1e75
     },
     "13": {
       "a": "Hinten",
       "b": "Zurück"
     },
     "14": {
+<<<<<<< HEAD
       "a": "Hier",
       "b": "Vorne"
+=======
+      "a": "Zurück",
+      "b": "Hier"
+>>>>>>> b55f2a8068d39487a2a4c9cd5ecd3ae9406c1e75
     },
     "15": {
       "a": "Hier",
       "b": "Dort"
     },
     "16": {
+<<<<<<< HEAD
       "a": "Links",
+=======
+      "a": "Unter (dir)",
+>>>>>>> b55f2a8068d39487a2a4c9cd5ecd3ae9406c1e75
       "b": "Geradeaus"
     },
     "17": {
@@ -116,9 +130,15 @@
     "10": "Rechts",
     "11": "Links",
     "12": "Geradeaus",
+<<<<<<< HEAD
     "13": "Zurück",
     "14": "Hier",
     "15": "Dort",
+=======
+    "13": "Geradeaus",
+    "14": "Hier",
+    "15": "Hier",
+>>>>>>> b55f2a8068d39487a2a4c9cd5ecd3ae9406c1e75
     "16": "Geradeaus",
     "17": "In der Nähe von...",
     "18": "Weit entfernt.",

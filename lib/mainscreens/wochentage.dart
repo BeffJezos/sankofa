@@ -110,49 +110,49 @@ class _WochentageState extends State<Wochentage> {
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
+                            child: DaysRectangleWithTextv(
                               functionality: 'Montag',
                               input: 'Montag',
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
+                            child: DaysRectangleWithTextv(
                               functionality: 'Dienstag',
                               input: 'Dienstag',
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
+                            child: DaysRectangleWithTextv(
                               functionality: 'Mittwoch',
                               input: 'Mittwoch',
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
+                            child: DaysRectangleWithTextv(
                               functionality: 'Donnerstag',
                               input: 'Donnerstag',
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
+                            child: DaysRectangleWithTextv(
                               functionality: 'Freitag',
                               input: 'Freitag',
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
+                            child: DaysRectangleWithTextv(
                               functionality: 'Samstag',
                               input: 'Samstag',
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: DaysRectangleWithText(
+                            child: DaysRectangleWithTextv(
                               functionality: 'Sonntag',
                               input: 'Sonntag',
                             ),

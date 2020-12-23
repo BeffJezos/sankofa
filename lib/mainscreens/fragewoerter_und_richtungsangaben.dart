@@ -117,47 +117,47 @@ class _FragewoerterundRichtungsangabenState
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Wer?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Wo?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Was?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Woher?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Wann?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Wohin?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Wie?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Warum?'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Welcher?'),
                           ),
                         ],
@@ -263,47 +263,47 @@ class _FragewoerterundRichtungsangabenState
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Rechts'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Links'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Geradeaus'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Zurück'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Hier'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Dort'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'In der Nähe von...'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Weit entfernt'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: SentencesRectangleWithText(
+                            child: SentencesRectangleWithTextv(
                                 functionality: 'Kreuzung'),
                           ),
                         ],

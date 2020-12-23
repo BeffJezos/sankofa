@@ -285,6 +285,7 @@ class _quizpageState extends State<quizpage> {
                 alignment: Alignment.bottomLeft,
                 child: Text(
                   mydata[0][i.toString()],
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 32.0,
                     fontFamily: "Roboto",

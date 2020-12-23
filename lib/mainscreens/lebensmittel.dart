@@ -176,97 +176,97 @@ class _LebensmittelState extends State<Lebensmittel> {
                           children: [
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Zwiebeln'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Chilli Pfeffer'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Reis'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Mais'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Tomaten'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Ingwer'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Salz'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Ananas'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Banane'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Zucker'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Orange'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Ei/Eier'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Mehl'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Brot'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Kokosnuss'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Fleisch'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Fisch'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Schweinefleisch'),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: GroceriesRectangleWithText(
+                              child: GroceriesRectangleWithTextv(
                                   functionality: 'Rindfleisch'),
                             ),
                           ],
