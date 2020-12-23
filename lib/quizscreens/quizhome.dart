@@ -99,7 +99,7 @@ class _QuizHomeState extends State<QuizHome> {
                   child: Text(
                     des,
                     style: TextStyle(
-                        fontSize: 18.0,
+                        fontSize: 16.0,
                         color: Colors.white,
                         fontFamily: "Roboto"),
                     maxLines: 5,
