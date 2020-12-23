@@ -85,7 +85,7 @@ class _QuizHomeState extends State<QuizHome> {
                 Center(
                   child: Text(
                     langname,
-                    textAlign: TextAlign.start,
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.white,
@@ -136,7 +136,7 @@ class _QuizHomeState extends State<QuizHome> {
           customcard("Konsonanten", images[4], des[4]),
           customcard("Selbstlaute", images[5], des[5]),
           customcard("Häufige Twi Sätze", images[6], des[6]),
-          customcard("Fragewörter und Richtungsangaben", images[7], des[7]),
+          customcard("Fragewörter", images[7], des[7]),
           customcard("Zeitangaben", images[8], des[8]),
           customcard("Tiere", images[9], des[9]),
           customcard("Komplettes Quiz", images[10], des[10]),
