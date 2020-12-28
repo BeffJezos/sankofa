@@ -14,12 +14,7 @@
     "12": "Was bedeutet kosua? ",
     "13": "Was bedeutet esam? ",
     "14": "Was bedeutet paanoo/burodo? ",
-    "15": "Was bedeutet kube? ",
-    "16": "Was bedeutet ɛnam? ",
-    "17": "Was bedeutet nsuomunam? ",
-    "18": "Was bedeutet prɛkonam? ",
-    "19": "Was bedeutet nantwinam? ",
-    "20": "Was bedeutet kosua? "
+    "15": "Was bedeutet kube? "
   },
   {
     "1": {
@@ -81,26 +76,6 @@
     "15": {
       "a": "Zucker",
       "b": "Kokosnuss"
-    },
-    "16": {
-      "a": "Fleisch",
-      "b": "Banane"
-    },
-    "17": {
-      "a": "Ei/Eier",
-      "b": "Fisch"
-    },
-    "18": {
-      "a": "Schweinefleisch",
-      "b": "Brot"
-    },
-    "19": {
-      "a": "Rindfleisch",
-      "b": "Mehl"
-    },
-    "20": {
-      "a": "Ei/Eier",
-      "b": "Salz"
     }
   },
   {
@@ -118,11 +93,6 @@
     "12": "Ei/Eier",
     "13": "Mehl",
     "14": "Brot",
-    "15": "Kokosnuss",
-    "16": "Fleisch",
-    "17": "Fisch",
-    "18": "Schweinefleisch",
-    "19": "Rindfleisch",
-    "20": "Ei/Eier"
+    "15": "Kokosnuss"
   }
 ]

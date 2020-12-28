@@ -23,10 +23,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.fromLTRB(16.0, 0.0, 0.0, 0.0),
+                padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
                 child: Text(
                   'Settings',
                   style: kTitleStyle,
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(

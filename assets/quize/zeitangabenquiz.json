@@ -14,12 +14,7 @@
     "12": "Wofür steht die Zeitangabe dabi da?",
     "13": "Wofür steht die Zeitangabe ntɛm?",
     "14": "Wofür steht die Zeitangabe kane?",
-    "15": "Wofür steht die Zeitangabe ɔkyena akyi?",
-    "16": "Wofür steht die Zeitangabe akyire?",
-    "17": "Wofür steht die Zeitangabe ɛtɔ da a?",
-    "18": "Wofür steht die Zeitangabe de3he?",
-    "19": "Wofür steht die Zeitangabe nnawɔtwe biara?",
-    "20": "Wofür steht die Zeitangabe berɛ?"
+    "15": "Wofür steht die Zeitangabe ɔkyena akyi?"
   },
   {
     "1": {
@@ -81,26 +76,6 @@
     "15": {
       "a": "schnell",
       "b": "Übermorgen"
-    },
-    "16": {
-      "a": "niemals",
-      "b": "später"
-    },
-    "17": {
-      "a": "manchmal",
-      "b": "oft, immer"
-    },
-    "18": {
-      "a": "täglich",
-      "b": "selten"
-    },
-    "19": {
-      "a": "jetzt",
-      "b": "manchmal"
-    },
-    "20": {
-      "a": "Zeit",
-      "b": "Abend, Nacht"
     }
   },
   {
@@ -118,11 +93,6 @@
     "12": "niemals",
     "13": "schnell",
     "14": "früher",
-    "15": "Übermorgen",
-    "16": "später",
-    "17": "manchmal",
-    "18": "täglich",
-    "19": "manchmal",
-    "20": "Zeit"
+    "15": "Übermorgen"
   }
 ]

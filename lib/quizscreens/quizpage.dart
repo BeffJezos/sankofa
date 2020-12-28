@@ -113,9 +113,9 @@ class _quizpageState extends State<quizpage> {
     var distinctIds = [];
     var rand = new Random();
     for (int i = 0;;) {
-      distinctIds.add(rand.nextInt(20) + 1);
+      distinctIds.add(rand.nextInt(15) + 1);
       random_array = distinctIds.toSet().toList();
-      if (random_array.length < 20) {
+      if (random_array.length < 15) {
         continue;
       } else {
         break;

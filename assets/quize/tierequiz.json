@@ -14,12 +14,7 @@
     "12": "Wie heißt das Tier Stier auf Twi?",
     "13": "Wie heißt das Tier Eule auf Twi?",
     "14": "Wie heißt das Tier Ente auf Twi?",
-    "15": "Wie heißt das Tier Bär auf Twi?",
-    "16": "Wie heißt das Tier Chamäleon auf Twi?",
-    "17": "Wie heißt das Tier Falke auf Twi?",
-    "18": "Wie heißt das Tier Schildkröte auf Twi?",
-    "19": "Wie heißt das Tier Tausendfüßler auf Twi?",
-    "20": "Wie heißt das Tier Krabbe auf Twi?"
+    "15": "Wie heißt das Tier Bär auf Twi?"
   },
   {
     "1": {
@@ -81,26 +76,6 @@
     "15": {
       "a": "prako",
       "b": "sisire"
-    },
-    "16": {
-      "a": "abosomakoterɛ",
-      "b": "ɔwɔ"
-    },
-    "17": {
-      "a": "akorɔma",
-      "b": "susono"
-    },
-    "18": {
-      "a": "akyekyedeɛ",
-      "b": "adowa"
-    },
-    "19": {
-      "a": "ɔforoteɛ",
-      "b": "kankabi"
-    },
-    "20": {
-      "a": "opuro",
-      "b": "kɔtɔ"
     }
   },
   {
@@ -118,11 +93,6 @@
     "12": "nantwinini",
     "13": "patuo",
     "14": "dabodabo",
-    "15": "sisire",
-    "16": "abosomakoterɛ",
-    "17": "akorɔma",
-    "18": "akyekyedeɛ",
-    "19": "kankabi",
-    "20": "kɔtɔ"
+    "15": "sisire"
   }
 ]

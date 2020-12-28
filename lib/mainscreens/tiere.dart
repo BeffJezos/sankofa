@@ -103,7 +103,7 @@ class _TiereState extends State<Tiere> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SentencesRectangleWithTextvier(
-                              functionality: 'nantwie',
+                              functionality: 'nantwie bedee',
                               input: 'nantwie bedee',
                             ),
                           ),

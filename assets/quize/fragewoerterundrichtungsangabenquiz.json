@@ -14,12 +14,7 @@
     "12": "tee",
     "13": "san bra",
     "14": "ɛha",
-    "15": "ɛhɔ",
-    "16": "tee",
-    "17": "ɛbɛn",
-    "18": "ɛware",
-    "19": "nkwanta",
-    "20": "ɛhɔ"
+    "15": "ɛhɔ"
   },
   {
     "1": {
@@ -68,44 +63,19 @@
     },
     "12": {
       "a": "Geradeaus",
-      "b": "Links",
-      "a": "Unter (dir)",
-      "b": "Geradeaus"
+      "b": "Links"
     },
     "13": {
       "a": "Hinten",
       "b": "Zurück"
     },
     "14": {
-      "a": "Hier",
-      "b": "Vorne",
       "a": "Zurück",
       "b": "Hier"
     },
     "15": {
       "a": "Hier",
       "b": "Dort"
-    },
-    "16": {
-      "a": "Links",
-      "a": "Unter (dir)",
-      "b": "Geradeaus"
-    },
-    "17": {
-      "a": "In der Nähe von...",
-      "b": "In deiner Sichweite."
-    },
-    "18": {
-      "a": "Übergang",
-      "b": "Weit entfernt."
-    },
-    "19": {
-      "a": "Übergang",
-      "b": "Kreuzung"
-    },
-    "20": {
-      "a": "Dort",
-      "b": "Hier"
     }
   },
   {
@@ -123,14 +93,6 @@
     "12": "Geradeaus",
     "13": "Zurück",
     "14": "Hier",
-    "15": "Dort",
-    "13": "Geradeaus",
-    "14": "Hier",
-    "15": "Hier",
-    "16": "Geradeaus",
-    "17": "In der Nähe von...",
-    "18": "Weit entfernt.",
-    "19": "Kreuzung",
-    "20": "Dort"
+    "15": "Dort"
   }
 ]

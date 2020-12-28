@@ -14,12 +14,7 @@
     "12": "Me ma wo akye.",
     "13": "Me ma wo aha.",
     "14": "Me ma wo adwo.",
-    "15": "Yaa nua.",
-    "16": "Yaa εna.",
-    "17": "Yaa agya.",
-    "18": "Yaa asɔn.",
-    "19": "Nante yiye.",
-    "20": "Yɛbɛhyia bio."
+    "15": "Yaa nua."
   },
   {
     "1": {
@@ -82,27 +77,6 @@
       "a": "Antwort auf einen Gruß bei Person im gleichen Alter.",
       "b": "Antwort auf einen Gruß bei älterer Person."
     },
-    "16": {
-      "a": "Antwort auf einen Gruß bei einem älteren Herren.",
-      "b": "Antwort auf einen Gruß bei einer älteren Dame."
-    },
-    "17": {
-      "a": "Antwort auf einen Gruß bei einem älteren Herren.",
-      "b": "Antwort auf einen Gruß bei einer älteren Dame."
-    },
-    "18": {
-      "a": "Antwort auf einen Gruß bei einer jüngeren Person.",
-      "b": "Antwort auf einen Gruß bei einem Familien-Mitglied."
-    },
-    "19": {
-      "a": "Gute Heimfahrt.",
-      "b": "Gute Reise."
-    },
-    "20": {
-      "a": "Wir werden uns wiedersehen.",
-      "b": "Bis Morgen."
-    }
-  },
   {
     "1": "Wie heißt du?",
     "2": "Ich heiße...",
@@ -118,11 +92,6 @@
     "12": "Guten Morgen.",
     "13": "Guten Nachmittag.",
     "14": "Guten Abends.",
-    "15": "Antwort auf einen Gruß bei Person im gleichen Alter.",
-    "16": "Antwort auf einen Gruß bei einer älteren Dame.",
-    "17": "Antwort auf einen Gruß bei einem älteren Herren.",
-    "18": "Antwort auf einen Gruß bei einer jüngeren Person.",
-    "19": "Gute Reise.",
-    "20": "Wir werden uns wiedersehen."
+    "15": "Antwort auf einen Gruß bei Person im gleichen Alter."
   }
 ]

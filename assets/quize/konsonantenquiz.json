@@ -14,12 +14,7 @@
     "12": "Welcher Konsonant existiert in der Sprache Twi?",
     "13": "Welcher Konsonant existiert in der Sprache Twi?",
     "14": "Welcher Konsonant existiert in der Sprache Twi?",
-    "15": "Welcher Konsonant existiert in der Sprache Twi?",
-    "16": "Welcher Konsonant existiert in der Sprache Twi?",
-    "17": "Welcher Konsonant existiert in der Sprache Twi?",
-    "18": "Welcher Konsonant existiert in der Sprache Twi?",
-    "19": "Welcher Konsonant existiert in der Sprache Twi?",
-    "20": "Welcher Konsonant existiert in der Sprache Twi?"
+    "15": "Welcher Konsonant existiert in der Sprache Twi?"
   },
   {
     "1": {
@@ -81,26 +76,6 @@
     "15": {
       "a": "y",
       "b": "we"
-    },
-    "16": {
-      "a": "j",
-      "b": "h"
-    },
-    "17": {
-      "a": "k",
-      "b": "o"
-    },
-    "18": {
-      "a": "q",
-      "b": "l"
-    },
-    "19": {
-      "a": "m",
-      "b": "u"
-    },
-    "20": {
-      "a": "n",
-      "b": "v"
     }
   },
   {
@@ -118,11 +93,6 @@
     "12": "s",
     "13": "t",
     "14": "w",
-    "15": "y",
-    "16": "h",
-    "17": "k",
-    "18": "l",
-    "19": "m",
-    "20": "n"
+    "15": "y"
   }
 ]

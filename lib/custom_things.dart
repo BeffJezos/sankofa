@@ -444,8 +444,8 @@ class ColorRectangleWithText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 85,
-      height: 65,
+      width: 180,
+      height: 40,
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,
@@ -487,8 +487,8 @@ class ColorRectangleWithTextv extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 85,
-      height: 65,
+      width: 180,
+      height: 40,
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,

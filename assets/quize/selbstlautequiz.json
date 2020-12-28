@@ -14,12 +14,7 @@
     "12": "Welche Selbstlaute gibt es in der Sprache Twi?",
     "13": "Welche Selbstlaute gibt es in der Sprache Twi?",
     "14": "Welche Selbstlaute gibt es in der Sprache Twi?",
-    "15": "Welche Selbstlaute gibt es in der Sprache Twi?",
-    "16": "Welche Selbstlaute gibt es in der Sprache Twi?",
-    "17": "Welche Selbstlaute gibt es in der Sprache Twi?",
-    "18": "Welche Selbstlaute gibt es in der Sprache Twi?",
-    "19": "Welche Selbstlaute gibt es in der Sprache Twi?",
-    "20": "Welche Selbstlaute gibt es in der Sprache Twi?"
+    "15": "Welche Selbstlaute gibt es in der Sprache Twi?"
   },
   {
     "1": {
@@ -81,26 +76,6 @@
     "15": {
       "a": "fe",
       "b": "e"
-    },
-    "16": {
-      "a": "ɛ",
-      "b": "ko"
-    },
-    "17": {
-      "a": "wo",
-      "b": "i"
-    },
-    "18": {
-      "a": "o",
-      "b": "d"
-    },
-    "19": {
-      "a": "ɔ",
-      "b": "p"
-    },
-    "20": {
-      "a": "Ll",
-      "b": "u."
     }
   },
   {
@@ -118,11 +93,6 @@
     "12": "o",
     "13": "ɔ",
     "14": "u.",
-    "15": "e",
-    "16": "ɛ",
-    "17": "i",
-    "18": "o",
-    "19": "ɔ",
-    "20": "u."
+    "15": "e"
   }
 ]

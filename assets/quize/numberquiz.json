@@ -14,12 +14,7 @@
     "12": "Wie lautet die Zahl 100 auf Twi?",
     "13": "Wie lautet die Zahl 110 auf Twi?",
     "14": "Wie lautet die Zahl 120 auf Twi?",
-    "15": "Wie lautet die Zahl 122 auf Twi?",
-    "16": "Wie lautet die Zahl 300 auf Twi?",
-    "17": "Wie lautet die Zahl 500 auf Twi?",
-    "18": "Wie lautet die Zahl 600 auf Twi?",
-    "19": "Wie lautet die Zahl 800 auf Twi?",
-    "20": "Wie lautet die Zahl 2000 auf Twi?"
+    "15": "Wie lautet die Zahl 122 auf Twi?"
   },
   {
     "1": {
@@ -81,26 +76,6 @@
     "15": {
       "a": "ɔha ne mmienu",
       "b": "ɔha ne aduonu mmienu"
-    },
-    "16": {
-      "a": "aduasa",
-      "b": "ahasa"
-    },
-    "17": {
-      "a": "ahanum",
-      "b": "dunum"
-    },
-    "18": {
-      "a": "dubaako",
-      "b": "ahansia"
-    },
-    "19": {
-      "a": "nkron",
-      "b": "ahanwɔtwe"
-    },
-    "20": {
-      "a": "nsia",
-      "b": "mpem mmienu/mpenu"
     }
   },
   {
@@ -118,11 +93,6 @@
     "12": "ɔha",
     "13": "ɔha ne du",
     "14": "ɔha ne aduonu",
-    "15": "ɔha ne aduonu mmienu",
-    "16": "ahasa",
-    "17": "ahanum",
-    "18": "ahansia",
-    "19": "ahanwɔtwe",
-    "20": "mpem mmienu/mpenu"
+    "15": "ɔha ne aduonu mmienu"
   }
 ]

@@ -14,12 +14,7 @@
     "12": "Wie lautet die Zahl 100 auf Twi?",
     "13": "Welche Selbstlaute gibt es in der Sprache Twi?",
     "14": "Welche Selbstlaute gibt es in der Sprache Twi?",
-    "15": "Wie heißt das Tier Falke auf Twi?",
-    "16": "Wie heißt das Tier Krabbe auf Twi?",
-    "17": "Wie lautet der Akan-Tag für Mittwoch?",
-    "18": "Wie lautet der Akan-Tag für Donnerstag?",
-    "19": "Wofür steht die Zeitangabe anadwo?",
-    "20": "Wofür steht die Zeitangabe daa?"
+    "15": "Wie heißt das Tier Falke auf Twi?"
   },
   {
     "1": {
@@ -81,26 +76,6 @@
     "15": {
       "a": "akorɔma",
       "b": "susono"
-    },
-    "16": {
-      "a": "opuro",
-      "b": "kɔtɔ"
-    },
-    "17": {
-      "a": "Wukuada",
-      "b": "Kwasiada"
-    },
-    "18": {
-      "a": "Ebenada/Benad",
-      "b": "Yawoada"
-    },
-    "19": {
-      "a": "Abend, Nacht",
-      "b": "Stunden"
-    },
-    "20": {
-      "a": "täglich",
-      "b": "oft, immer"
     }
   },
   {
@@ -118,11 +93,6 @@
     "12": "ɔha",
     "13": "o",
     "14": "ɔ",
-    "15": "akorɔma",
-    "16": "kɔtɔ",
-    "17": "Wukuada",
-    "18": "Yawoada",
-    "19": "Abend, Nacht",
-    "20": "oft, immer"
+    "15": "akorɔma"
   }
 ]
