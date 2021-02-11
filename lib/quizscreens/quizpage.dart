@@ -258,13 +258,13 @@ class _quizpageState extends State<quizpage> {
         return showDialog(
             context: context,
             builder: (context) => AlertDialog(
-                    title: Text('Are you sure you want to quit?'),
+                    title: Text('Möchtest du das Quiz beenden?'),
                     actions: <Widget>[
                       RaisedButton(
-                          child: Text('sign out'),
+                          child: Text('Ja'),
                           onPressed: () => Navigator.of(context).pop(true)),
                       RaisedButton(
-                          child: Text('cancel'),
+                          child: Text('Nein'),
                           onPressed: () => Navigator.of(context).pop(false)),
                     ]));
       },
