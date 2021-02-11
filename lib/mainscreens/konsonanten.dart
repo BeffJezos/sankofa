@@ -20,22 +20,30 @@ class _KonsonantenState extends State<Konsonanten> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(20.0, 32.0, 134.0, 16.0),
-                  child: Text('Die Akan (Twi) Konsonanten', style: kTitleStyle),
-                ),
-                Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(color: Colors.white),
-                    borderRadius: BorderRadius.circular(10.0),
-                    color: Color.fromRGBO(255, 87, 87, 1),
+                SafeArea(
+                  child: Row(
+                    children: [
+                      BackButton(),
+                      Text('Die Akan (Twi) Konsonanten', style: kTitleStyle),
+                    ],
                   ),
-                  margin: EdgeInsets.fromLTRB(24.0, 0.0, 24.0, 0.0),
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
-                    child: Text(
-                        'Es gibt insgesamt 15 Konsonanten:     b, d, f, g, h, k, l, m, n, p, r, s, t, w, y.',
-                        style: kNormalStyle),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(8.0, 16.0, 8.0, 0.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.white),
+                      borderRadius: BorderRadius.circular(10.0),
+                      color: Color.fromRGBO(255, 87, 87, 1),
+                    ),
+                    margin: EdgeInsets.fromLTRB(24.0, 0.0, 24.0, 0.0),
+                    child: Padding(
+                      padding:
+                          const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
+                      child: Text(
+                          'Es gibt insgesamt 15 Konsonanten:     b, d, f, g, h, k, l, m, n, p, r, s, t, w, y.',
+                          style: kNormalStyle),
+                    ),
                   ),
                 ),
                 Padding(

@@ -23,12 +23,17 @@ class _FarbenState extends State<Farben> {
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(0.0, 32.0, 134.0, 32.0),
+                  padding: const EdgeInsets.all(8.0),
                   child: FlatButton(
                     onPressed: () {
                       player.play('farben/farbentwi.mp3');
                     },
-                    child: Text('Farben (Ahosuo)', style: kTitleStyle),
+                    child: Row(
+                      children: [
+                        BackButton(),
+                        Text('Farben (Ahosuo)', style: kTitleStyle),
+                      ],
+                    ),
                   ),
                 ),
                 Row(

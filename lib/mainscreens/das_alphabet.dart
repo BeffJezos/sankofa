@@ -18,9 +18,13 @@ class _AlphabetState extends State<Alphabet> {
           padding: const EdgeInsets.all(16.0),
           child: Column(
             children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.fromLTRB(6.0, 16.0, 32.0, 16.0),
-                child: Text('Das Alphabet (Nsɛmfua)', style: kTitleStyle),
+              Expanded(
+                child: Row(
+                  children: [
+                    BackButton(),
+                    Text('Das Alphabet (Nsɛmfua)', style: kTitleStyle),
+                  ],
+                ),
               ),
               Expanded(
                 flex: 1,

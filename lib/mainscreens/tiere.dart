@@ -21,8 +21,13 @@ class _TiereState extends State<Tiere> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(8.0, 32.0, 296.0, 16.0),
-                  child: Text('Tiere', style: kTitleStyle),
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      BackButton(),
+                      Text('Tiere', style: kTitleStyle),
+                    ],
+                  ),
                 ),
                 Row(
                   children: [

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:akwasi_app/styles.dart';
-import 'package:akwasi_app/styles.dart';
+
 
 class Sprachkurs extends StatefulWidget {
   static const String id = 'sprach_kurs';
@@ -19,10 +19,15 @@ class _SprachkursState extends State<Sprachkurs> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.fromLTRB(32.0, 48.0, 32.0, 0.0),
-              child: Text(
-                'SANKOFA SPRACHKURS',
-                style: kTitleStyle,
+              padding: const EdgeInsets.fromLTRB(8.0, 32.0, 8.0, 8.0),
+              child: Row(
+                children: [
+                  BackButton(),
+                  Text(
+                    'SANKOFA SPRACHKURS',
+                    style: kTitleStyle,
+                  ),
+                ],
               ),
             ),
             Column(
@@ -48,18 +53,19 @@ class _SprachkursState extends State<Sprachkurs> {
                               textAlign: TextAlign.start,
                               style: kNormalStyle),
                           Padding(
-                            padding: const EdgeInsets.fromLTRB(0.0, 12.0, 0.0, 12.0),
+                            padding:
+                                const EdgeInsets.fromLTRB(0.0, 12.0, 0.0, 12.0),
                             child: Text(
                                 'Es wurde vernachlässigt, ihnen die heimatliche Sprache, Geschichte und Kultur'
-                                    ' zu vermitteln. Mit Sprache können wir nicht nur kommunizieren. Sie ist auch Teil unserer Identität und ist immer'
-                                    ' verknüpft mit bestimmten Kulturen und Lebensweisen.',
+                                ' zu vermitteln. Mit Sprache können wir nicht nur kommunizieren. Sie ist auch Teil unserer Identität und ist immer'
+                                ' verknüpft mit bestimmten Kulturen und Lebensweisen.',
                                 textAlign: TextAlign.start,
                                 style: kNormalStyle),
                           ),
                           Text(
                               'Wenn Sprache verloren geht, geht auch unwiderruflich die Kultur'
-                                  ' zu Grunde.Sankofa Sprachkurs möchte helfen, das Versäumte nachzuholen und stellt deshalb Unterrichtseinheiten'
-                                  ' zur Verfügung.Unser Ziel ist es, allen Interessierten die Sprache, sowie die Kultur und Geschichte zu vermitteln.',
+                              ' zu Grunde.Sankofa Sprachkurs möchte helfen, das Versäumte nachzuholen und stellt deshalb Unterrichtseinheiten'
+                              ' zur Verfügung.Unser Ziel ist es, allen Interessierten die Sprache, sowie die Kultur und Geschichte zu vermitteln.',
                               textAlign: TextAlign.start,
                               style: kNormalStyle),
                         ],

@@ -22,18 +22,24 @@ class _FragewoerterundRichtungsangabenState
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(color: Colors.white),
-                    borderRadius: BorderRadius.circular(10.0),
-                    color: Color.fromRGBO(255, 87, 87, 1),
-                  ),
-                  margin: EdgeInsets.fromLTRB(24.0, 16.0, 24.0, 0.0),
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
-                    child: Text('Die wichtigsten Fragewörter',
-                        style: kNormalStyle),
-                  ),
+                Row(
+                  children: [
+                    BackButton(),
+                    Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(color: Colors.white),
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Color.fromRGBO(255, 87, 87, 1),
+                      ),
+                      margin: EdgeInsets.fromLTRB(8.0, 16.0, 24.0, 0.0),
+                      child: Padding(
+                        padding:
+                            const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
+                        child: Text('Die wichtigsten Fragewörter',
+                            style: kNormalStyle),
+                      ),
+                    ),
+                  ],
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),

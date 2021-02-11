@@ -21,8 +21,13 @@ class _ZeitangabenState extends State<Zeitangaben> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(8.0, 32.0, 192.0, 16.0),
-                  child: Text('Zeitangaben', style: kTitleStyle),
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      BackButton(),
+                      Text('Zeitangaben', style: kTitleStyle),
+                    ],
+                  ),
                 ),
                 Container(
                   decoration: BoxDecoration(

@@ -21,9 +21,13 @@ class _ZahlenState extends State<Zahlen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(8.0, 32.0, 260.0, 32.0),
-                  child: Text('Zahlen', style: kTitleStyle),
+                SafeArea(
+                  child: Row(
+                    children: [
+                      BackButton(),
+                      Text('Zahlen', style: kTitleStyle),
+                    ],
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(16.0),

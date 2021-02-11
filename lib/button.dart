@@ -65,6 +65,17 @@ class HomeScreenOptions extends StatelessWidget {
   }
 }
 
+class ZurueckButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return FlatButton(
+        child: Icon(Icons.arrow_back_ios_rounded),
+        onPressed: () {
+          Navigator.pop(context);
+        });
+  }
+}
+
 class AuswahlOptions extends StatelessWidget {
   AuswahlOptions({
     @required this.onPressed,
@@ -225,9 +236,8 @@ class SettingsOptions extends StatelessWidget {
             child: Text(
               functionality,
               textAlign: TextAlign.center,
-              style: TextStyle(color: Colors.black,
-              fontFamily: 'Roboto',
-              fontSize: 22.0),
+              style: TextStyle(
+                  color: Colors.black, fontFamily: 'Roboto', fontSize: 22.0),
             ),
           ),
         ),

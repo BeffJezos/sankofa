@@ -21,8 +21,13 @@ class _HaeufigesaetzeState extends State<Haeufigesaetze> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(20.0, 32.0, 134.0, 16.0),
-                  child: Text('Häufige Twi Sätze', style: kTitleStyle),
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      BackButton(),
+                      Text('Häufige Twi Sätze', style: kTitleStyle),
+                    ],
+                  ),
                 ),
                 Row(
                   children: [

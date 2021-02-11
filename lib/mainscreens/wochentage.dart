@@ -20,8 +20,13 @@ class _WochentageState extends State<Wochentage> {
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(0.0, 32.0, 134.0, 16.0),
-                  child: Text('Wochentage', style: kTitleStyle),
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      BackButton(),
+                      Text('Wochentage', style: kTitleStyle),
+                    ],
+                  ),
                 ),
                 Container(
                   decoration: BoxDecoration(

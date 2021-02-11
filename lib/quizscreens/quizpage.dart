@@ -258,22 +258,15 @@ class _quizpageState extends State<quizpage> {
         return showDialog(
             context: context,
             builder: (context) => AlertDialog(
-                  title: Text(
-                    "SANKOFA QUIZ",
-                  ),
-                  content: Text(
-                      "Du kannst jetzt nicht zurück. Stelle dich dem Quiz!"),
-                  actions: <Widget>[
-                    FlatButton(
-                      onPressed: () {
-                        Navigator.of(context).pop();
-                      },
-                      child: Text(
-                        'Ok',
-                      ),
-                    )
-                  ],
-                ));
+                    title: Text('Are you sure you want to quit?'),
+                    actions: <Widget>[
+                      RaisedButton(
+                          child: Text('sign out'),
+                          onPressed: () => Navigator.of(context).pop(true)),
+                      RaisedButton(
+                          child: Text('cancel'),
+                          onPressed: () => Navigator.of(context).pop(false)),
+                    ]));
       },
       child: Scaffold(
         body: Column(

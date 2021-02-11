@@ -20,8 +20,13 @@ class _LebensmittelState extends State<Lebensmittel> {
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(8.0, 32.0, 208.0, 16.0),
-                  child: Text('Lebensmittel', style: kTitleStyle),
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      BackButton(),
+                      Text('Lebensmittel', style: kTitleStyle),
+                    ],
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
