@@ -18,7 +18,7 @@ import 'package:splashscreen/splashscreen.dart';
 import 'package:akwasi_app/SettingsScreens/settings_screen.dart';
 
 void main() => runApp(new MaterialApp(
-  debugShowCheckedModeBanner: false,
+
       home: MyApp(),
     ));
 
@@ -45,6 +45,7 @@ class Sankofa extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         primaryColor: Color.fromRGBO(255, 87, 87, 1),
         scaffoldBackgroundColor: Color.fromRGBO(255, 87, 87, 1),
