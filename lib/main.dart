@@ -18,6 +18,7 @@ import 'package:splashscreen/splashscreen.dart';
 import 'package:akwasi_app/SettingsScreens/settings_screen.dart';
 
 void main() => runApp(new MaterialApp(
+  debugShowCheckedModeBanner: false,
       home: MyApp(),
     ));
 
