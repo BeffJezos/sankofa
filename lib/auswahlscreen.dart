@@ -79,46 +79,6 @@ class _AuswahlState extends State<Auswahl> {
                           ],
                         ),
                       ),
-                      Expanded(
-                        child: Column(
-                          children: [
-                            Container(
-                              width: 100,
-                              height: 80,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.rectangle,
-                                image: new DecorationImage(
-                                  image: new AssetImage(
-                                      'assets/images/Lingala.jpeg'),
-                                  fit: BoxFit.fill,
-                                ),
-                              ),
-                            ),
-                            AuswahlOptions(
-                                onPressed: () {}, functionality: 'Swahili'),
-                          ],
-                        ),
-                      ),
-                      Expanded(
-                        child: Column(
-                          children: [
-                            Container(
-                              width: 100,
-                              height: 80,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.rectangle,
-                                image: new DecorationImage(
-                                  image: new AssetImage(
-                                      'assets/images/Swahili.jpeg'),
-                                  fit: BoxFit.fill,
-                                ),
-                              ),
-                            ),
-                            AuswahlOptions(
-                                onPressed: () {}, functionality: 'Lingala'),
-                          ],
-                        ),
-                      ),
                     ],
                   ),
                 ),
