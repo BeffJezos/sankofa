@@ -30,7 +30,7 @@ class Getjson extends StatelessWidget {
     } else if (langname == "Wochentage") {
       assettoload = "assets/quize/wochentagequiz.json";
     } else if (langname == "Konsonanten") {
-      assettoload = "assets/quize/konsonantenquiz";
+      assettoload = "assets/quize/konsonantenquiz.json";
     } else if (langname == "Selbstlaute") {
       assettoload = "assets/quize/selbstlautequiz.json";
     } else if (langname == "Häufige Twi Sätze") {
@@ -57,10 +57,15 @@ class Getjson extends StatelessWidget {
         List mydata = json.decode(snapshot.data.toString());
         if (mydata == null) {
           return Scaffold(
-            body: Center(
-              child: Text(
-                "Lädt...",
-              ),
+            body: Row(
+              children: [
+                BackButton(),
+                Center(
+                  child: Text(
+                    "Lädt...",
+                  ),
+                ),
+              ],
             ),
           );
         } else {
@@ -269,55 +274,64 @@ class _quizpageState extends State<quizpage> {
                     ]));
       },
       child: Scaffold(
-        body: Column(
-          children: <Widget>[
-            Expanded(
-              flex: 3,
-              child: Container(
-                padding: EdgeInsets.all(15.0),
-                alignment: Alignment.bottomCenter,
-                child: Text(
-                  mydata[0][i.toString()],
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 32.0,
-                    fontFamily: "Roboto",
-                  ),
-                ),
+        body: Padding(
+          padding: const EdgeInsets.fromLTRB(8.0, 64.0, 8.0, 8.0),
+          child: Column(
+            children: <Widget>[
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  BackButton(),
+                ],
               ),
-            ),
-            Expanded(
-              flex: 6,
-              child: AbsorbPointer(
-                absorbing: disableAnswer,
+              Expanded(
+                flex: 3,
                 child: Container(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      choicebutton('a'),
-                      choicebutton('b'),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            Expanded(
-              flex: 1,
-              child: Container(
-                alignment: Alignment.topCenter,
-                child: Center(
+                  padding: EdgeInsets.all(15.0),
+                  alignment: Alignment.bottomCenter,
                   child: Text(
-                    showtimer,
+                    mydata[0][i.toString()],
+                    textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontSize: 35.0,
-                      fontWeight: FontWeight.w700,
-                      fontFamily: 'Roboto',
+                      fontSize: 32.0,
+                      fontFamily: "Roboto",
                     ),
                   ),
                 ),
               ),
-            ),
-          ],
+              Expanded(
+                flex: 6,
+                child: AbsorbPointer(
+                  absorbing: disableAnswer,
+                  child: Container(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        choicebutton('a'),
+                        choicebutton('b'),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Expanded(
+                flex: 1,
+                child: Container(
+                  alignment: Alignment.topCenter,
+                  child: Center(
+                    child: Text(
+                      showtimer,
+                      style: TextStyle(
+                        fontSize: 35.0,
+                        fontWeight: FontWeight.w700,
+                        fontFamily: 'Roboto',
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
